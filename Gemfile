@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 # frozen_string_literal: true
 
-gem "github-pages", group: :jekyll_plugins
+gem 'github-pages', '~> 232', group: :jekyll_plugins
 
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

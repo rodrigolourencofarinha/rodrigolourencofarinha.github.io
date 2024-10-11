@@ -19,6 +19,12 @@
   font-weight: normal; /* This makes the text normal, not bold */
 }
 
+/* Target the link inside the h2 to remove underline */
+.name-left h2 a {
+  text-decoration: none; /* This removes the underline from the link */
+  color: inherit; /* Keeps the link the same color as the heading */
+}
+
 /* Navigation styling */
 nav ul {
   list-style: none;

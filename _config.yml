@@ -4,6 +4,7 @@ url: "https://rodrigolourencofarinha.github.io"
 baseurl: ""
 author:
   name: "Rodrigo Farinha"
+theme: jekyll-theme-primer
 
 collections:
   authors:

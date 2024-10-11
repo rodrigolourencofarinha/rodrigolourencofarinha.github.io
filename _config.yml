@@ -1,3 +1,10 @@
+title: "Rodrigo Farinha"
+description: "PhD Candidate at Fundação Getulio Vargas"
+url: ""
+baseurl: ""
+author:
+  name: "Rodrigo Farinha"
+
 collections:
   authors:
     output: true

@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Signika
+- Font Author: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
+- Font Source: https://fonts.gstatic.com/s/signika/v25/vEF72_JTCgwQ5ejvMV0Ox_Kg1UwJ0tKfX4zNpD8E4ASzH1r9gTuYzTMngt4xjw.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

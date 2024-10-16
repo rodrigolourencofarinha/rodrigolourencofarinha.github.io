@@ -7,8 +7,27 @@
   display: flex;
   justify-content: space-between; /* Space between name and nav */
   align-items: center;
-  padding: 10px 160px; /* Adjust padding for spacing */
+  padding: 0px 30px; /* Adjust padding to create spacing */
+  max-width: 1300px; /* or your preferred width */
+  margin: 0 auto; /* Centers the container on the page */
+  margin-top: 10px;
   background-color: #dcdcdc; /* Match the background color */
+}
+
+.header-container h1 {
+  margin: 0; /* Removes default margin to align the heading */
+}
+
+.header-container nav ul {
+  list-style: none; /* Removes bullets */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Adjusts the space between navigation links */
+}
+
+.header-container nav ul li {
+  display: inline;
 }
 
 /* Name in the top left */
@@ -69,12 +88,14 @@ body {
     align-items: center;
     padding: 20px;
     max-width: 1600px;
-    margin: 0 auto;
+    margin-left: 5%; /* Adds 5% margin from the left */
+    margin-right: 5%; /* Adds 5% margin from the right */
   }
   
   .left {
     width: 50%;
     margin-top: 0;
+    margin-right: 0.5%
   }
   
   .right {
@@ -88,6 +109,14 @@ body {
     max-width: 800px; /* You can set a max-width if necessary */
     border-radius: 0px;
   }
+  
+  .container .left h1 {
+    font-size: 8rem; /* Adjust this value to increase or decrease the font size */
+  }
+
+  .container .left p {
+    font-size: 1rem; /* Adjust this value for the paragraph */
+  }
 
   header {
     margin-top: 0;
@@ -95,7 +124,7 @@ body {
   }
 
   h1 {
-    font-size: 8rem;
+    font-size: 12rem;
     margin-top: 0;
     margin-bottom: 1rem;
     color: black;
@@ -128,40 +157,10 @@ body {
   main {
     padding-top: 0;
     margin-top: 0; /* Remove any margin-top from main content */
-  }
-  
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    text-align: center;
+    flex: 1; /* Ensure the main content takes up the remaining space */
+
   }
 
-  .left{
-    width: 100%;
-  }
-
-  .right{
-    width: 100%;
-    text-align: center; /* Center the image */
-  }
-
-  .right img {
-    width: 60%;
-    margin: 0 auto;
-  }
-
-  h1 {
-    font-size: 3rem;
-  }
-}
-  
-.single-line {
-  white-space: nowrap; /* Prevents the text from wrapping onto multiple lines */
-}
-
-main {
-  flex: 1; /* Ensure the main content takes up the remaining space */
-}
 /* Footer styling */
 footer {
   background-color: #000; /* Set background color to black */
@@ -238,3 +237,68 @@ footer {
 .footer-right a:hover {
   text-decoration: underline;
 }
+
+
+  
+@media (max-width: 768px) {
+
+  .header-container {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	text-align: left;
+  }
+  
+  .name-left h2{
+	font-size: 0.7rem;
+  }
+  
+  .header nav a{
+	font-size: 0.7rem;
+	padding: 10px 0;
+  }
+  
+  .container {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .left{
+    width: 100%;
+  }
+
+  .right{
+    width: 100%;
+    text-align: left; /* Center the image */
+  }
+
+  .right img {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .footer{
+	display: flex;
+	flex-direction: columns;
+	text-align: left;
+	padding: 20px;
+	}
+	
+  .footer .social-icons a{
+  	font-size: 0.8rem;
+	margin: 10px 0;
+  }
+  
+  .footer .contact-info{
+	margin: 10px;
+  }
+  
+  .footer h2 {
+  font-size: 0.8rem;
+  }
+  
+  .footer .location, .footer .contact {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  }
+ }

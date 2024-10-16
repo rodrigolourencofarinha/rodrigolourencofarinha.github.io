@@ -6,16 +6,26 @@
 .header-container {
   display: flex;
   justify-content: space-between; /* Space between name and nav */
-  align-items: center;
+  align-items: left;
   padding: 0px 30px; /* Adjust padding to create spacing */
-  max-width: 1300px; /* or your preferred width */
+  max-width: 1000px; /* or your preferred width */
   margin: 0 auto; /* Centers the container on the page */
-  margin-top: 10px;
+  margin-top: 40px;
   background-color: #dcdcdc; /* Match the background color */
 }
 
-.header-container h1 {
-  margin: 0; /* Removes default margin to align the heading */
+/* Name in the top left */
+.name-left h1 {
+  margin: 0;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  color: black;
+  font-weight: bold; /* This makes the text normal, not bold */
+}
+
+/* Target the link inside the h2 to remove underline */
+.name-left h1 a {
+  text-decoration: none; /* This removes the underline from the link */
+  color: inherit; /* Keeps the link the same color as the heading */
 }
 
 .header-container nav ul {
@@ -28,41 +38,16 @@
 
 .header-container nav ul li {
   display: inline;
+  /*margin-left: 20px; /* Add space between menu items */
 }
 
-/* Name in the top left */
-.name-left h2 {
-  margin: 0;
-  font-size: 1.5rem;
-  color: black;
-  font-weight: normal; /* This makes the text normal, not bold */
-}
-
-/* Target the link inside the h2 to remove underline */
-.name-left h2 a {
-  text-decoration: none; /* This removes the underline from the link */
-  color: inherit; /* Keeps the link the same color as the heading */
-}
-
-/* Navigation styling */
-nav ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  margin-left: 20px; /* Add space between menu items */
-}
-
-nav ul li a {
+.header-container nav ul li a{
   text-decoration: none;
   color: black;
-  padding: 5px;
+  font-size: clamp(0.9rem, 1.3vw, 1.1rem);
 }
 
-nav ul li a:hover {
+.header-container nav ul li a:hover{
   text-decoration: underline;
 }
 
@@ -72,94 +57,85 @@ html, body {
 }
 
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #0000;
-    margin: 0;
-    padding: 0;
-    background-color: #dcdcdc;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    max-width: 1600px;
-    margin-left: 5%; /* Adds 5% margin from the left */
-    margin-right: 5%; /* Adds 5% margin from the right */
-  }
-  
-  .left {
-    width: 50%;
-    margin-top: 0;
-    margin-right: 0.5%
-  }
-  
-  .right {
-    width: 50%;
-    text-align: right;
-  }
-  
-  .right img {
-    width: 100%; /* Increase the width to 100% */
-    height: auto; /* Ensure the height scales proportionally */
-    max-width: 800px; /* You can set a max-width if necessary */
-    border-radius: 0px;
-  }
-  
-  .container .left h1 {
-    font-size: 8rem; /* Adjust this value to increase or decrease the font size */
-  }
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #000; /* Correct color to make it visible (not #0000) */
+  margin: 0;
+  padding: 0;
+  background-color: #dcdcdc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
-  .container .left p {
-    font-size: 1rem; /* Adjust this value for the paragraph */
-  }
+/* Main container for text and image */
+.container {
+  display: flex;
+  flex-direction: row; /* Arrange text and image side-by-side */
+  justify-content: space-between; /* Space between text and image */
+  align-items: center; /* Align items vertically */
+  max-width: 1000px; /* Limit the max width for better appearance */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add some padding for spacing */
+  gap: 20px; /* Space between the text and image */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
 
-  header {
-    margin-top: 0;
-    padding-top: 0;
-  }
+/* Left container for text */
+.left {
+  flex: 1; /* Let the text grow to take equal space */
+  margin-top: 0;
+  margin-right: 0;
+  padding-right: 20px; /* Adds space between text and image */
+}
 
-  h1 {
-    font-size: 12rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    color: black;
-  }
-  
-  p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin: 0.5rem 0; /* Add margin for spacing between paragraphs */
-    color: black;
-  }
-  
-  a {
-    color: black;
-    text-decoration: underline;
-    border-bottom: #0000;
-  }
-  
-  .btn {
-    display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px 80px;
-    background-color: #000;
-    color: white;
-    text-decoration: none;
-    border-radius: 100px;
-  }
+/* Heading Styling */
+.left h1 {
+  font-size: clamp(4rem, 10vw, 8rem); /* Set a more visible font size */
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: black;
+}
 
-  main {
-    padding-top: 0;
-    margin-top: 0; /* Remove any margin-top from main content */
-    flex: 1; /* Ensure the main content takes up the remaining space */
+/* Paragraph Styling */
+.left p {
+  font-size: clamp(0.5rem, 1vw, 1.1rem); /* Larger size for readability */
+  line-height: 1.5;
+  margin: 0.5rem 0; /* Add margin for spacing between paragraphs */
+  color: black;
+}
 
-  }
+/* Link Styling */
+.left a {
+  color: black;
+  text-decoration: underline;
+  border-bottom: none;
+}
+
+/* Button Styling */
+.left .btn {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+/* Right container for the image */
+.right {
+  flex: 1; /* Let the image grow to take equal space */
+  text-align: center; /* Center the image on mobile if needed */
+}
+
+/* Image styling */
+.right img {
+  width: 100%; /* Take up the full width of its container */
+  height: auto; /* Maintain the aspect ratio */
+  max-width: 400px; /* Prevent the image from becoming too large */
+  border-radius: 8px; /* Optional: Rounded corners for aesthetics */
+}
 
 /* Footer styling */
 footer {
@@ -174,7 +150,7 @@ footer {
   display: flex;
   justify-content: space-between; /* Ensure content is spaced evenly across the width */
   align-items: center; /* Align content vertically in the center */
-  max-width: 1600px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -238,67 +214,3 @@ footer {
   text-decoration: underline;
 }
 
-
-  
-@media (max-width: 768px) {
-
-  .header-container {
-	display: flex;
-	flex-direction: column;
-	align-items: left;
-	text-align: left;
-  }
-  
-  .name-left h2{
-	font-size: 0.7rem;
-  }
-  
-  .header nav a{
-	font-size: 0.7rem;
-	padding: 10px 0;
-  }
-  
-  .container {
-    flex-direction: column;
-    text-align: left;
-  }
-
-  .left{
-    width: 100%;
-  }
-
-  .right{
-    width: 100%;
-    text-align: left; /* Center the image */
-  }
-
-  .right img {
-    width: 50%;
-    margin: 0 auto;
-  }
-  
-  .footer{
-	display: flex;
-	flex-direction: columns;
-	text-align: left;
-	padding: 20px;
-	}
-	
-  .footer .social-icons a{
-  	font-size: 0.8rem;
-	margin: 10px 0;
-  }
-  
-  .footer .contact-info{
-	margin: 10px;
-  }
-  
-  .footer h2 {
-  font-size: 0.8rem;
-  }
-  
-  .footer .location, .footer .contact {
-  font-size: 0.8rem;
-  margin-bottom: 10px;
-  }
- }

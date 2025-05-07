@@ -1,7 +1,7 @@
 # Site
 name: "Rodrigo Farinha"
 title: "Rodrigo Farinha"
-# description: "Personal. rr"
+description: "Rodrigo Farinha"
 logo: 'assets/images/rodrigo_farinha.jpg' # Update with actual path later
 favicon: 'assets/images/favicon.ico' # Update with actual path later
 baseurl: "" # Set for root deployment

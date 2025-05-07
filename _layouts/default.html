@@ -1,67 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }} | {{ page.title }}</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Standard favicon for most browsers -->
-  <link rel="icon" href="/assets/images/favicon_io/favicon-32x32.png" sizes="32x32" type="image/png">
-  <link rel="icon" href="/assets/images/favicon_io/favicon-16x16.png" sizes="16x16" type="image/png">
+<!-- <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png"> -->
 
-  <!-- Apple Touch Icon (for iOS devices, Safari) -->
-  <link rel="apple-touch-icon" href="/assets/images/favicon_io/apple-touch-icon.png">
+<link rel="icon" href="{{ site.baseurl }}/{{ site.favicon | relative_url }}" type="image/x-icon">
 
-  <!-- Android Chrome Icons (for Android devices) -->
-  <link rel="icon" href="/assets/images/favicon_io/android-chrome-192x192.png" sizes="192x192" type="image/png">
-  <link rel="icon" href="/assets/images/favicon_io/android-chrome-512x512.png" sizes="512x512" type="image/png">
+<title>{{ page.title }} | {{site.name}}</title>
 
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+{% seo %}
+    
+<link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
+
+<link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
+
+<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+
 </head>
 
-<body>
-  <!-- Header section with name and navigation -->
-  <header>
-    <div class="header-container">
-      <div class="name-left">
-        <h1><a href="/">Rodrigo Farinha</a></h1> <!-- Your name in the top left -->
-      </div>
-      <nav>
-        <ul id="nav-links">
-          <li><a href="/">Home</a></li>
-          <li><a href="/cv">Curriculum Vitae</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+{% if jekyll.environment == 'production' %}
+<!-- change your GA id in _config.yml -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  <main>
-    {{ content }}
-  </main>
-  
-<footer>
-  <div class="footer-container">
-    <div class="footer-left">
-      <h2>Rodrigo Farinha</h2>
-      <div class="social-icons">
-        <a href="https://github.com/rodrigolourencofarinha" target="_blank"><img src="/assets/icons/github.png" alt="GitHub"></a>
-        <a href="https://www.linkedin.com/in/rodrigolourencofarinha" target="_blank"><img src="/assets/icons/linkedin.png" alt="LinkedIn"></a>
-        <a href="https://x.com/rodrigolfarinha" target="_blank"><img src="/assets/icons/x.png" alt="X"></a>
-      </div>
+  gtag('config', '{{site.google_analytics}}');
+</script>
+{% endif %}
+
+{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+<body>
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+		<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</noscript>
+
+<!-- Begin Sidebar Navigation
+================================================== -->
+
+<div class="sidebar">    
+</div>   
+<div class="nav-icon">
+    <div class="hamburger-bar"></div>
+</div>
+<div id="blackover-nav" class="blackover"></div>
+<nav id="menu">
+    <ul>
+        <h3>Navigation</h3>
+        <li><a href="{{ site.baseurl }}/">Home</a></li>
+        <li><a href="{{ site.baseurl }}/research/">Research</a></li>
+        <li><a href="{{ site.baseurl }}/consulting/">Consulting</a></li>
+        <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
+        <!-- Add other pages like About or Contact if created -->
+        <li><a href="{{ site.baseurl }}/assets/pdf/Farinha_Vita_v20250120.pdf" target="_blank">CV (PDF)</a></li>
+    </ul>   
+</nav>
+
+{% include search-lunr.html %}
+
+
+<!-- End Sidebar Navigation
+================================================== -->
+
+<div class="site-content {% if page.url == '/' %} firstpage {% endif %}">
+
+<div class="container">
+
+    <!-- Site Logo/Name
+    ================================================== -->
+   
+    <!-- <a class="navbar-brand" href="{{ site.baseurl }}/"> -->
+        <!-- <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}"> -->
+    <!-- </a>   -->
+   
+    <a class="navbar-brand text-dark text-decoration-none" href="{{ site.baseurl }}/">
+        {% if page.url == "/" %}
+          <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}" style="max-height: 160px;">
+        {% else %}
+            <span class="site-name">Rodrigo
+                Farinha</span>
+        {% endif %}
+      </a>
+
+    <!-- Site Tag
+    ================================================== -->
+    {% if page.url == '/' %}
+        <p class="sitetag">
+            {{ site.description }}
+        </p>
+    {% endif %}
+
+    <!-- Content
+    ================================================== -->
+    <div class="main-content">
+        {{ content }}
     </div>
-    <div class="footer-right">
-      <div class="footer-location">
-        <h4>Location</h4>
-        <p>São Paulo, Brazil</p>
-      </div>
-      <div class="footer-contact">
-        <h4>Contact</h4>
-        <p><a href="mailto:rodrigo.farinha@tuta.io">rodrigo.farinha@tuta.io</a></p>
-      </div>
+
+    {% if site.mailchimp-list %}
+    <!-- Newsletter
+    ================================================== -->
+    <!-- <div class="newsletter text-center">
+        <span class="h4"><img src="{{ site.baseurl }}/{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+        <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+            <div class="mc-field-group d-inline-flex">
+            <input type="email" placeholder="Your e-mail" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
+            <input type="submit" value="Subscribe" name="subscribe" class="heart">
+            </div>
+        </form>
+    </div> -->
+    {% endif %}
+    
+</div>
+
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 text-center text-lg-left">
+                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+            </div>
+            <div class="col-md-6 col-sm-12 text-center text-lg-right">    
+                <!-- Theme attribution removed -->
+            </div>
+        </div>
     </div>
-  </div>
 </footer>
+<!-- End Footer
+================================================== -->
+
+</div> <!-- /.site-content -->
+
+<!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
+================================================== -->
+
+<script src="{{ site.baseurl }}/assets/js/prism.js"></script>
+
+<script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+
+{% if site.lazyimages == "enabled" %}
+<script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
+{% endif %}
+
+{% if page.layout == 'post' %}
+<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
+{% endif %}
 
 </body>
 </html>

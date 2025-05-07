@@ -1,20 +1,29 @@
 source "https://rubygems.org"
 
-# frozen_string_literal: true
+# Modern Jekyll compatible with Ruby 3.x
+gem "jekyll", "~> 4.3.3"
 
-gem 'github-pages', '~> 232', group: :jekyll_plugins
+# Required for Ruby 3.x (was separated from standard library)
+gem "webrick", "~> 1.7"
 
+# Windows file watcher
+gem "wdm", ">= 0.1.0" if Gem.win_platform?
 
-# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", ">= 1", "< 3"
-  gem "tzinfo-data"
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
+  gem "jekyll-seo-tag"
+  gem "jekyll-archives"
+  gem "jekyll-figure"
+
+  # Upgrade Bootstrap to latest (v5+)
+  gem "bootstrap", "~> 5.3.0"
+
+  # Updated for compatibility with Ruby 3.x and Bootstrap 5
+  gem "sassc", "~> 2.4"
+
+  # Recommended for Markdown + syntax highlighting
+  gem "kramdown-parser-gfm"
+  gem "rouge"
 end
-
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
-# Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
-# do not have a Java counterpart.
-gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]

@@ -16,12 +16,12 @@ email: '' # Add Rodrigo's email if provided
 authors:
   rodrigo:
     name: Rodrigo Farinha
-    display_name: Rodrigo L. Farinha
-    avatar: 'assets/images/rodrigo_farinha.jpg' # Update with actual path later
-    email: '' # Add Rodrigo's email if provided
-    web: '' # Add personal website URL once deployed
-    twitter: '' # Add Twitter URL if provided
-    linkedin: 'https://www.linkedin.com/in/rodrigolourencofarinha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+    display_name: Rodrigo Farinha
+    avatar: 'assets/images/rodrigo_farinha.jpg' 
+    email: 'rodrigo.farinha@tuta.io' 
+    web: 'https://rodrigofarinha.com' 
+    twitter: 'https://x.com/RodrigoLFarinha' 
+    linkedin: 'https://www.linkedin.com/in/rodrigolourencofarinha'
     description: "PhD in Marketing. Consultant & Scholar focused on go-to-market strategy, digital transformation, and innovation, particularly in agribusiness and B2B sectors."
 
 # Plugins

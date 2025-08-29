@@ -10,7 +10,7 @@
 
 <link rel="icon" href="{{ site.baseurl }}/{{ site.favicon | relative_url }}" type="image/x-icon">
 
-<title>{{site.name}}</title>
+<title>{{ site.name }}{% if page.title and page.title != site.name %} | {{ page.title }}{% endif %}</title>
 
 {% seo %}
 <!-- Apply saved theme early to avoid FOUC -->
@@ -27,7 +27,7 @@
     
 <link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
 
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.assets_version | default: site.time | date: '%s' }}">
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 

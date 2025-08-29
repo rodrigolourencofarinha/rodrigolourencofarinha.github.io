@@ -43,7 +43,8 @@ h1,h2,h3,h4,h5,h6 {
     font-weight:700;
 }
 .site-content {
-    padding-top:50px;
+    // Extra headroom so the fixed hamburger and theme toggle never overlap content
+    padding-top:70px;
 }
 .sitetag {
     font-weight:700;    
@@ -711,13 +712,8 @@ img, img:hover {
          display:none;
     }
 }
-body.active-side {
-    .bd-search {
-        visibility: visible;
-        opacity: 1;
-        transition: opacity 0.5s linear;
-    }
-}
+// Keep search closed unless explicitly opened by the search icon
+// No automatic search visibility when side nav is active; user toggles it explicitly
 //footer
 .footer {
     margin-top:120px;
@@ -786,20 +782,19 @@ body.active-side {
 }
 
 @media (max-width: 600px) {
-    .nav-icon, .sidebar, .share, .wrap-search {
+    .sidebar, .share {
         position:relative;
     }
     .container {
-        padding-left:15px;
+        // Leave space for the fixed hamburger (left:15px, width:50px)
+        padding-left:70px;
     }
     .site-content {
-        padding-top:0;
+        // Keep some spacing at the top on small screens
+        padding-top:56px;
     }
-    .bd-search {
-        visibility: visible;
-        opacity: 1;
-        transition: opacity 0.5s linear;
-    }
+    // keep hidden on small screens until user clicks the search icon
+    .bd-search { visibility: hidden; opacity: 0; }
     .wrap-search {
         position: fixed;
         left: 15px;
@@ -827,7 +822,11 @@ body.active-side {
         }
     }
 }
+
 @media (max-width: 480px) {
+    .container {
+        padding-left:60px;
+    }
     .newsletter {
         .mc-field-group input[type="email"] {
             min-width:170px;
@@ -888,3 +887,4 @@ body.active-side {
     display: inline-block;
   }
   
+

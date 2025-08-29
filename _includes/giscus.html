@@ -1,0 +1,29 @@
+{% assign g = site.giscus %}
+{% if g and g.repo and g.repo != '' %}
+<section class="giscus">
+  <div id="giscus_thread"></div>
+  <script src="https://giscus.app/client.js"
+    data-repo="{{ g.repo }}"
+    {% if g.repo_id and g.repo_id != '' %}data-repo-id="{{ g.repo_id }}"{% endif %}
+    {% if g.category and g.category != '' %}data-category="{{ g.category }}"{% endif %}
+    {% if g.category_id and g.category_id != '' %}data-category-id="{{ g.category_id }}"{% endif %}
+    data-mapping="{{ g.mapping | default: 'pathname' }}"
+    data-strict="{{ g.strict | default: 0 }}"
+    data-reactions-enabled="{{ g.reactions_enabled | default: 1 }}"
+    data-emit-metadata="{{ g.emit_metadata | default: 0 }}"
+    data-input-position="{{ g.input_position | default: 'bottom' }}"
+    data-theme="{{ g.theme | default: 'light' }}"
+    data-lang="{{ g.lang | default: 'en' }}"
+    crossorigin="anonymous"
+    async>
+  </script>
+  <noscript>Please enable JavaScript to view the comments provided by Giscus.</noscript>
+</section>
+{% else %}
+<div class="small text-muted" style="border:1px dashed #ccc; padding:12px; border-radius:6px;">
+  Giscus is not configured. Set <code>giscus.repo</code> in <code>_config.yml</code> to enable.
+  Example: <code>owner/repo</code>
+  (Enable GitHub Discussions and install the Giscus app.)
+</div>
+{% endif %}
+

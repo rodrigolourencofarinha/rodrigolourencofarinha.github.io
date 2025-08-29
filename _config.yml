@@ -6,7 +6,21 @@ logo: 'assets/images/rodrigo_farinha.jpg' # Update with actual path later
 favicon: 'assets/images/favicon.ico' # Update with actual path later
 baseurl: "" # Set for root deployment
 google_analytics: '' # Add Rodrigo's GA ID if provided
-disqus: '' # Add Rodrigo's Disqus shortname if provided
+# Disqus deprecated in favor of Giscus
+disqus: ''
+# Giscus configuration (GitHub Discussions-based comments)
+giscus:
+  repo: 'rodrigolourencofarinha/rodrigolourencofarinha.github.io'            # e.g., owner/repo
+  repo_id: 'R_kgDOM-fc0g'         # optional, from Giscus setup
+  category: 'General'        # e.g., Announcements (name)
+  category_id: 'DIC_kwDOM-fc0s4Cutth'     # optional, from Giscus setup
+  mapping: 'pathname' # pathname | url | title | og:title | specific
+  strict: 0           # 0 | 1
+  reactions_enabled: 1# 0 | 1
+  emit_metadata: 0    # 0 | 1
+  input_position: 'bottom' # top | bottom
+  theme: 'preferred_color_scheme'      # light | dark | preferred_color_scheme | etc.
+  lang: 'en'          # interface language
 mailchimp-list: '' # Add Rodrigo's Mailchimp list if provided
 include: ["_pages"]
 permalink: /:title/

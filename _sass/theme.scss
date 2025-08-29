@@ -29,6 +29,16 @@ img {
     height:auto;
 }
 
+// Global: brand/client logos
+// Apply a subtle white tile behind all images under /assets/logos/
+// so they read well on dark backgrounds.
+img[src*="/assets/logos/"] {
+    background: #fff;
+    padding: 6px;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
 h1,h2,h3,h4,h5,h6 {
     font-weight:700;
 }
@@ -85,6 +95,75 @@ img, img:hover {
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+}
+
+// Theme toggle button
+.theme-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 1030;
+    background: rgba(0,0,0,0.06);
+    border: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+}
+
+// Dark theme overrides
+.dark {
+  body {
+    background: #111;
+    color: #e6e6e6;
+  }
+  a {
+    color: lighten($primary, 15%);
+  }
+  // Footer: match dark surface and softer divider
+  .footer {
+    background: #151515;
+    border-top-color: rgba(255,255,255,0.08);
+    color: #d8d8d8;
+  }
+
+  .sidebar,
+  #menu {
+    background: #151515;
+    border-color: rgba(255,255,255,0.08);
+  }
+  .card,
+  .card-footer,
+  .article-post code[class*="language-"],
+  .article-post pre[class*="language-"] {
+    background: #1c1c1c;
+    color: #e6e6e6;
+  }
+  .blog-grid-item { color: #ddd; }
+  .site-name { color: #e6e6e6; }
+  // Ensure any forced dark text becomes light in dark theme
+  .text-dark { color: #eaeaea !important; }
+  // Blog cards: make titles white for contrast
+  .blog-grid-item .card-title a { color: #ffffff !important; }
+  // Override utility that forces white background in components (e.g., card-footer)
+  .bg-white { background-color: #1c1c1c !important; }
+  // Outline buttons: clearer borders and text on dark backgrounds
+  .btn-outline-dark {
+    color: #eaeaea;
+    border-color: rgba(255,255,255,0.35);
+  }
+  .btn-outline-dark:hover,
+  .btn-outline-dark:focus {
+    color: #111;
+    background-color: #eaeaea;
+    border-color: #eaeaea;
+  }
+  blockquote { border-left:1px solid rgba(255,255,255,0.25); }
+  .pagination a { background: rgba(255,255,255,0.08); color:#eee; }
+  .pagination a:hover { background: $primary; }
+  .theme-toggle { background: rgba(255,255,255,0.12); }
 }
 @keyframes fade-down {
 	0% {

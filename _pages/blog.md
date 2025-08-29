@@ -4,19 +4,12 @@ title: Blog
 permalink: /blog/
 ---
 
-<!-- Posts Index
-================================================== -->
+<!-- Posts Index -->
 <div class="blog-grid-container">
-    {% for post in paginator.posts %}
-        {% include postbox.html %}
-    {% endfor %}
+  {% for post in site.posts %}
+    {% include postbox.html %}
+  {% endfor %}
+  {% if site.posts == empty %}
+    <p>No posts yet.</p>
+  {% endif %}
 </div>
-
-<!-- Pagination
-================================================== -->
-<div class="bottompagination">
-<span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
-</div>
-

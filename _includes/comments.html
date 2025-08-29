@@ -1,12 +1,15 @@
 <!-- Comments
 ================================================== -->
-{% if page.comments != false %} 
+{% if page.comments != false %}
 <div class="comments mt-5">
-    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp; Load Comments</button>         
-    <div id="comments">  
-        <h4 class="mb-4">Comments</h4>                 
-            {% include disqus.html %}     
-    <div class="clearfix"></div>              
-    </div>    
-</div>       
+  <h4 class="mb-4">Comments</h4>
+  {% if site.giscus and site.giscus.repo and site.giscus.repo != '' %}
+    {% include giscus.html %}
+  {% else %}
+    <div class="small text-muted" style="border:1px dashed #ccc; padding:12px; border-radius:6px;">
+      Comments are disabled. Set <code>giscus.repo</code> in <code>_config.yml</code> (e.g., <code>owner/repo</code>).
+    </div>
+  {% endif %}
+  <div class="clearfix"></div>
+</div>
 {% endif %}

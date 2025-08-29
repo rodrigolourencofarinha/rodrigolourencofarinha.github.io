@@ -6,13 +6,29 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 
-<!-- <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png"> -->
+<!-- <link rel="icon" href="/assets/images/logo.png"> -->
 
-<link rel="icon" href="{{ site.baseurl }}/{{ site.favicon | relative_url }}" type="image/x-icon">
+<link rel="icon" href="//assets/images/favicon.ico" type="image/x-icon">
 
-<title>{{site.name}}</title>
+<title>Rodrigo Farinha</title>
 
-{% seo %}
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Tags | Rodrigo Farinha</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Tags" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Rodrigo Farinha" />
+<meta property="og:description" content="Rodrigo Farinha" />
+<link rel="canonical" href="http://localhost:4000/tags" />
+<meta property="og:url" content="http://localhost:4000/tags" />
+<meta property="og:site_name" content="Rodrigo Farinha" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Tags" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Rodrigo Farinha","headline":"Tags","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/rodrigo_farinha.jpg"}},"url":"http://localhost:4000/tags"}</script>
+<!-- End Jekyll SEO tag -->
+
 <!-- Apply saved theme early to avoid FOUC -->
 <script>
   (function() {
@@ -25,28 +41,18 @@
   })();
 </script>
     
-<link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
+<link href="/assets/css/prism.css" rel="stylesheet">
 
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link rel="stylesheet" href="/assets/css/style.css">
 
-<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.min.js"></script>
 
 </head>
 
 
-{% if jekyll.environment == 'production' %}
-<!-- change your GA id in _config.yml -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', '{{site.google_analytics}}');
-</script>
-{% endif %}
 
-{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+
 <body>
 	<!-- defer loading of font and font awesome -->
 	<noscript id="deferred-styles">
@@ -67,16 +73,35 @@
 <nav id="menu">
     <ul>
         <h3>Navigation</h3>
-        <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}/research/">Research</a></li>
-        <li><a href="{{ site.baseurl }}/practice/">Practice</a></li>
-        <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/research/">Research</a></li>
+        <li><a href="/practice/">Practice</a></li>
+        <li><a href="/blog/">Blog</a></li>
         <!-- Add other pages like About or Contact if created -->
-        <li><a href="{{ site.baseurl }}/assets/pdf/Farinha_Vita_v20250120.pdf" target="_blank">CV (PDF)</a></li>
+        <li><a href="/assets/pdf/Farinha_Vita_v20250120.pdf" target="_blank">CV (PDF)</a></li>
     </ul>   
 </nav>
 
-{% include search-lunr.html %}
+<script src="/assets/js/lunr.js"></script>
+
+<style>
+    
+</style>
+
+<div class="wrap-search">
+    <div class="d-flex align-items-center ml-auto">
+        <i class="fas fa-search show-search"></i>
+        <form class="bd-search ml-3" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+            <input type="text" class="form-control bigradius text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+        </form>
+    </div>
+</div>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script>
 
 
 <!-- End Sidebar Navigation
@@ -84,52 +109,47 @@
 
 <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
 
-<div class="site-content {% if page.url == '/' %} firstpage {% endif %}">
+<div class="site-content ">
 
 <div class="container">
 
     <!-- Site Logo/Name
     ================================================== -->
    
-    <!-- <a class="navbar-brand" href="{{ site.baseurl }}/"> -->
-        <!-- <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}"> -->
+    <!-- <a class="navbar-brand" href="/"> -->
+        <!-- <img src="/assets/images/rodrigo_farinha.jpg" alt="Rodrigo Farinha"> -->
     <!-- </a>   -->
    
-    <a class="navbar-brand text-dark text-decoration-none" href="{{ site.baseurl }}/">
-        {% if page.url == "/" %}
-          <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}" style="max-height: 160px;">
-        {% else %}
+    <a class="navbar-brand text-dark text-decoration-none" href="/">
+        
             <span class="site-name">Rodrigo Farinha</span>
-        {% endif %}
+        
       </a>
 
     <!-- Site Tag
     ================================================== -->
-    {% if page.url == '/' %}
-        <p class="sitetag">
-            {{ site.description }}
-        </p>
-    {% endif %}
+    
 
     <!-- Content
     ================================================== -->
     <div class="main-content">
-        {{ content }}
+        
+
     </div>
 
-    {% if site.mailchimp-list %}
+    
     <!-- Newsletter
     ================================================== -->
     <!-- <div class="newsletter text-center">
-        <span class="h4"><img src="{{ site.baseurl }}/{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
-        <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+        <span class="h4"><img src="/assets/images/rodrigo_farinha.jpg" class="newsletter-logo" alt="Rodrigo Farinha"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+        <form action="" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group d-inline-flex">
             <input type="email" placeholder="Your e-mail" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
             <input type="submit" value="Subscribe" name="subscribe" class="heart">
             </div>
         </form>
     </div> -->
-    {% endif %}
+    
     
 </div>
 
@@ -139,7 +159,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12 text-center text-lg-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+                Copyright © 2025 Rodrigo Farinha 
             </div>
             <div class="col-md-6 col-sm-12 text-center text-lg-right">    
                 <!-- Theme attribution removed -->
@@ -155,13 +175,13 @@
 <!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
 ================================================== -->
 
-<script src="{{ site.baseurl }}/assets/js/prism.js"></script>
+<script src="/assets/js/prism.js"></script>
 
-<script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+<script src="/assets/js/theme.js"></script>
 
-{% if site.lazyimages == "enabled" %}
-<script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
-{% endif %}
+
+<script src="/assets/js/lazyload.js"></script>
+
 
 <!-- Disqus count removed; using Giscus for comments -->
 

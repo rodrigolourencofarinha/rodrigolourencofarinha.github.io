@@ -134,6 +134,16 @@ img, img:hover {
     background: #151515;
     border-color: rgba(255,255,255,0.08);
   }
+  // Side elements: hamburger and share icons visible on dark
+  .nav-icon .hamburger-bar,
+  .nav-icon .hamburger-bar:before,
+  .nav-icon .hamburger-bar:after {
+    background: #e6e6e6;
+  }
+  .share ul li a { color: #e6e6e6; }
+  .share ul li a:hover { color: lighten($primary, 18%); }
+  // Off-canvas menu links in dark
+  #menu ul li a { color: #cfd8e3; }
   .card,
   .card-footer,
   .article-post code[class*="language-"],

@@ -1,0 +1,21 @@
+{
+  "name": "rodrigolourencofarinha.github.io",
+  "version": "1.0.0",
+  "description": "[Live Demo](https://wowthemesnet.github.io/jekyll-theme-memoirs/) | [Docs & Download](https://bootstrapstarter.com/jekyll-theme-memoirs/) |  [Buy me a coffee](https://www.wowthemes.net/donate/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigolourencofarinha/rodrigolourencofarinha.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rodrigolourencofarinha/rodrigolourencofarinha.github.io/issues"
+  },
+  "homepage": "https://github.com/rodrigolourencofarinha/rodrigolourencofarinha.github.io#readme"
+}

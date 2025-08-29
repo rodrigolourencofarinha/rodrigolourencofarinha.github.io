@@ -11,7 +11,7 @@ I aim to produce research that is rigorous, transparent, and applicable, often g
 
 ---
 
-# Ongoing Projects
+## Ongoing Projects
 
 *Current as of May 6, 2025*
 

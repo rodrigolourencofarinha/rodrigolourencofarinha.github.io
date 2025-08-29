@@ -63,6 +63,27 @@ h1,h2,h3,h4,h5,h6 {
 .btn {
     min-width: 180px;
 }
+
+// icon-only buttons used on homepage for external links
+.icon-btn {
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0,0,0,0.35);
+    border-radius: 8px;
+    color: #222;
+    background: transparent;
+    font-size: 1.15rem;
+    text-decoration: none;
+}
+.icon-btn:hover, .icon-btn:focus {
+    background: $primary;
+    color: #111;
+    border-color: $primary;
+    text-decoration: none;
+}
 blockquote {
     font-family: Times New Roman;
     font-style: italic;
@@ -174,6 +195,16 @@ img, img:hover {
   .pagination a { background: rgba(255,255,255,0.08); color:#eee; }
   .pagination a:hover { background: $primary; }
   .theme-toggle { background: rgba(255,255,255,0.12); }
+  // icon-only buttons in dark mode
+  .icon-btn {
+    color: #eaeaea;
+    border-color: rgba(255,255,255,0.35);
+  }
+  .icon-btn:hover, .icon-btn:focus {
+    color: #111;
+    background: #eaeaea;
+    border-color: #eaeaea;
+  }
 }
 @keyframes fade-down {
 	0% {
@@ -647,6 +678,8 @@ img, img:hover {
     left: 30px;
     bottom: 25px;
     z-index: 1026;
+    // keep search compact to avoid overlapping the theme toggle
+    .form-control { max-width: 340px; }
 }
 .modal-open .modal {
     background: rgba(0,0,0,0.3);
@@ -768,10 +801,13 @@ body.active-side {
         transition: opacity 0.5s linear;
     }
     .wrap-search {
-        right: 25px;
+        position: fixed;
+        left: 15px;
+        right: auto;
+        bottom: 20px;
         display: flex;
-        left: unset;
-        z-index:0;
+        z-index: 1026;
+        .form-control { max-width: 260px; }
     }
     .share {
         display: flex;

@@ -9,14 +9,15 @@ Over the past decade, I have worked with companies of different sizes to support
 
 ---
 
-# Consulting
+## Consulting
 
 I have worked as a strategy consultant and project manager for over ten years, leading projects across sectors such as agriculture, chemicals, consumer goods, and public policy. My work has covered topics like market entry, digital transformation, go-to-market strategy, and innovation design.
 
-## Selected Clients & Engagements
+### Selected Clients & Engagements
 
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; align-items: center; padding: 1.5rem 0;">
-  <img src="/assets/logos/bayer.png" alt="Bayer" style="height: 60px;" />
+  <img src="/assets/logos/lge.png" alt="LGE" style="height: 80px;" />
+  <img src="/assets/logos/bayer.png" alt="Bayer" style="height: 80px;" />
   <img src="/assets/logos/basf.png" alt="BASF" style="height: 60px;" />
   <img src="/assets/logos/syngenta.png" alt="Syngenta" style="height: 60px;" />
   <img src="/assets/logos/upl.png" alt="UPL" style="height: 60px;" />
@@ -37,7 +38,7 @@ I have worked as a strategy consultant and project manager for over ten years, l
 
 ---
 
-# Entrepreneurship: Sharp Selling
+## Entrepreneurship: Sharp Selling
 
 <img src="/assets/logos/sharpselling.png" alt="Sharp Selling" style="height: 80px;" />
 

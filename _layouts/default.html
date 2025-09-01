@@ -39,7 +39,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag(){dataLayer.push(arguments);} 
   gtag('js', new Date());
 
   gtag('config', '{{site.google_analytics}}');
@@ -48,12 +48,7 @@
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body>
-	<!-- defer loading of font and font awesome -->
-	<noscript id="deferred-styles">
-		<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
-        <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> -->
-    </noscript>
-    
+<a id="home-button" class="home-button auto-contrast" href="{{ site.baseurl }}/" aria-label="Home" title="Home"><i class="fa-solid fa-house"></i><span class="sr-only">Home</span></a>
 
 <!-- Begin Sidebar Navigation
 ================================================== -->
@@ -85,7 +80,7 @@
 
 <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
 
-<div class="site-content {% if page.url == '/' %} firstpage {% endif %}">
+<div class="site-content {% if page.url == '/' and site.home_hero and site.posts | size >= 3 %} firstpage {% endif %}">
 
 <div class="container">
 
@@ -168,3 +163,6 @@
 
 </body>
 </html>
+
+
+

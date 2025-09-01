@@ -66,6 +66,9 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+# Home layout options
+home_hero: false
+
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "disabled"
 adsense-data-ad-client: ""

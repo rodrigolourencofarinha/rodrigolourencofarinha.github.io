@@ -5,7 +5,7 @@ description: "Rodrigo Farinha"
 logo: 'assets/images/rodrigo_farinha.jpg' # Update with actual path later
 favicon: 'assets/images/favicon.ico' # Update with actual path later
 baseurl: "" # Set for root deployment
-google_analytics: '' # Add Rodrigo's GA ID if provided
+google_analytics: 'G-GETFNJX2YC' # Add Rodrigo's GA ID if provided
 # Disqus deprecated in favor of Giscus
 disqus: ''
 # Giscus configuration (GitHub Discussions-based comments)

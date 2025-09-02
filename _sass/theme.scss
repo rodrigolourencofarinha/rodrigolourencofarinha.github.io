@@ -32,6 +32,15 @@ img {
     height:auto;
 }
 
+// Ensure badge links keep strong contrast even when they are anchors
+// Without this, the global `a { color: ... }` rule overrides Bootstrap's
+// `.badge-*` text color and makes badge text low-contrast, especially in dark mode.
+a.badge,
+a.badge-primary {
+    color: #fff !important;
+    text-shadow: none;
+}
+
 // Global: brand/client logos
 // Apply a subtle white tile behind all images under /assets/logos/
 // so they read well on dark backgrounds.

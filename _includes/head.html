@@ -2,8 +2,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<!-- <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png"> -->
-<link rel="icon" href="{{ site.baseurl }}/{{ site.favicon | relative_url }}" type="image/x-icon">
+<!-- <link rel="icon" href="{{ '/assets/images/logo.png' | relative_url }}"> -->
+<link rel="icon" href="{{ site.favicon | relative_url }}" type="image/x-icon">
+<link rel="shortcut icon" href="{{ site.favicon | relative_url }}" type="image/x-icon">
 
 <title>{{ site.name }}{% if page.title and page.title != site.name %} | {{ page.title }}{% endif %}</title>
 
@@ -37,4 +38,3 @@
     gtag('config', '{{ site.google_analytics }}');
   </script>
 {% endif %}
-

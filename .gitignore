@@ -1,1 +1,30 @@
+# Workspace files
 *.code-workspace
+
+# Jekyll build artifacts
+/_site/
+/.sass-cache/
+/.jekyll-cache/
+/.jekyll-metadata
+
+# Ruby/Bundler
+/.bundle/
+/vendor/
+
+# Node
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Editors/OS
+/.vscode/
+/.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Misc
+Gemfile.lock.bak

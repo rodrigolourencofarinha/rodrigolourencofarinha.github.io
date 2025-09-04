@@ -25,7 +25,7 @@ giscus:
 mailchimp-list: '' # Add Rodrigo's Mailchimp list if provided
 include: ["_pages"]
 permalink: /:title/
-email: '' # Add Rodrigo's email if provided
+email: 'rodrigo.farinha@tuta.io' # Add Rodrigo's email if provided
 
 # Authors
 authors:

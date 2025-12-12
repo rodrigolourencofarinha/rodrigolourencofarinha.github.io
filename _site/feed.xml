@@ -3,10 +3,10 @@
   <channel>
     <title>Rodrigo Farinha</title>
     <description>Rodrigo Farinha</description>
-    <link>https://rodrigofarinha.com/</link>
-    <atom:link href="https://rodrigofarinha.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Dec 2025 18:56:20 -0300</pubDate>
-    <lastBuildDate>Fri, 12 Dec 2025 18:56:20 -0300</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 12 Dec 2025 19:06:36 -0300</pubDate>
+    <lastBuildDate>Fri, 12 Dec 2025 19:06:36 -0300</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
@@ -290,8 +290,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 01 Sep 2025 16:00:00 -0300</pubDate>
-        <link>https://rodrigofarinha.com/ideal-salesperson/</link>
-        <guid isPermaLink="true">https://rodrigofarinha.com/ideal-salesperson/</guid>
+        <link>http://localhost:4000/ideal-salesperson/</link>
+        <guid isPermaLink="true">http://localhost:4000/ideal-salesperson/</guid>
         
         <category>consumer behavior</category>
         
@@ -368,8 +368,8 @@ Maybe someone reads a post, relates to it, and decides to get in touch. That alo
 
 </description>
         <pubDate>Wed, 14 May 2025 14:06:00 -0300</pubDate>
-        <link>https://rodrigofarinha.com/welcome/</link>
-        <guid isPermaLink="true">https://rodrigofarinha.com/welcome/</guid>
+        <link>http://localhost:4000/welcome/</link>
+        <guid isPermaLink="true">http://localhost:4000/welcome/</guid>
         
         
         <category>updates</category>

@@ -114,6 +114,10 @@
 
 <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
 
+{% if site.substack_feed_url and site.substack_feed_url != '' %}
+<script src="{{ site.baseurl }}/assets/js/substack-feed.js"></script>
+{% endif %}
+
 {% if site.lazyimages == "enabled" %}
 <script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
 {% endif %}
@@ -122,6 +126,4 @@
 
 </body>
 </html>
-
-
 

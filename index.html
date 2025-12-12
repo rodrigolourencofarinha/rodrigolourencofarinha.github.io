@@ -37,8 +37,20 @@ layout: default
 <hr>
 
 <h2 class="text-center my-5">Recent Blog Posts</h2>
-<div class="blog-grid-container">
-  {% for post in site.posts limit:6 %}
-    {% include postbox.html %}
-  {% endfor %}
+{% if site.substack_feed_url and site.substack_feed_url != '' %}
+<div id="substack-feed-home"
+     class="blog-grid-container"
+     data-substack-feed="{{ site.substack_feed_url }}"
+     data-substack-home="{{ site.substack_publication_url | default: site.substack_feed_url | replace:'/feed','' }}"
+     data-max-posts="6"
+     data-author-name="{{ site.authors.rodrigo.display_name | default: site.name }}"
+     data-author-avatar="{% if site.authors.rodrigo.avatar %}{{ site.baseurl }}/{{ site.authors.rodrigo.avatar }}{% endif %}">
 </div>
+<p class="text-center text-muted small mt-3">Pulled from Substack. <noscript>Enable JavaScript or visit <a href="{{ site.substack_publication_url | default: site.substack_feed_url | replace:'/feed','' }}">Substack</a>.</noscript></p>
+{% else %}
+  <div class="blog-grid-container">
+    {% for post in site.posts limit:6 %}
+      {% include postbox.html %}
+    {% endfor %}
+  </div>
+{% endif %}

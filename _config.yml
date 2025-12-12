@@ -23,6 +23,12 @@ giscus:
   theme: 'preferred_color_scheme'      # light | dark | preferred_color_scheme | etc.
   lang: 'en'          # interface language
 mailchimp-list: '' # Add Rodrigo's Mailchimp list if provided
+
+# Optional: pull posts from Substack via RSS (uses client-side fetch through rss2json.com)
+# Example feed: https://your-newsletter.substack.com/feed
+substack_feed_url: 'https://rodrigofarinha.substack.com/feed'
+# Optional homepage link for fallback if the feed fails to load
+substack_publication_url: 'https://rodrigofarinha.substack.com'
 include: ["_pages"]
 permalink: /:title/
 email: 'rodrigo.farinha@tuta.io' # Add Rodrigo's email if provided

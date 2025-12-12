@@ -33,7 +33,7 @@ var documents = [{
     "id": 6,
     "url": "http://localhost:4000/",
     "title": "",
-    "body": "  PhD in quantitative marketing bridging research and practice  I study how firms innovate and make strategic choices. In parallel, I help companies tackle business problems in data-rich settings, using evidence to guide decisions rather than intuition.   Research  Practice  Teaching  Projects  Blog                                      Recent Blog Posts: Pulled from Substack. Enable JavaScript or visit Substack. "
+    "body": "  PhD in quantitative marketing bridging research and practice  I study how firms innovate and make strategic choices. In parallel, I help companies tackle business problems in data-rich settings, using evidence to guide decisions rather than intuition.   Research  Practice  Teaching  Projects  Blog                                                    Recent Blog Posts: Pulled from Substack. Enable JavaScript or visit Substack. "
     }, {
     "id": 7,
     "url": "http://localhost:4000/practice/",

@@ -188,6 +188,18 @@ img, img:hover {
   a {
     color: lighten($primary, 15%);
   }
+  // Make dark buttons visible on dark backgrounds (e.g., contact form submit)
+  .btn-dark {
+    background: #fff;
+    color: #111;
+    border-color: #fff;
+  }
+  .btn-dark:hover,
+  .btn-dark:focus {
+    background: lighten(#fff, 5%);
+    color: #000;
+    border-color: lighten(#fff, 5%);
+  }
   // Footer: match dark surface and softer divider
   .footer {
     background: #151515;
@@ -941,4 +953,3 @@ img, img:hover {
     display: inline-block;
   }
   
-

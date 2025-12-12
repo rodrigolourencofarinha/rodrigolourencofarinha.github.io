@@ -21,7 +21,8 @@
     return date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
   };
 
-  const pickImage = (item) => item?.thumbnail || (item.enclosure && item.enclosure.link) || '';
+  // Prefer enclosure (usually the main post image) over thumbnail if both exist
+  const pickImage = (item) => (item?.enclosure && item.enclosure.link) || item?.thumbnail || '';
 
   const buildCard = (item, opts) => {
     const image = pickImage(item);

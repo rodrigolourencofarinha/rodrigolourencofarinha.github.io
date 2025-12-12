@@ -26,9 +26,9 @@ var documents = [{
     "body": ""
     }, {
     "id": 5,
-    "url": "https://rodrigofarinha.com/contact",
-    "title": "Contact",
-    "body": "  Please send your message to Rodrigo Farinha. We will reply as soon as possible!   "
+    "url": "https://rodrigofarinha.com/_pages/contact/",
+    "title": "",
+    "body": "layout: pagetitle: Contactpermalink: /contactcomments: false Please send your message to Rodrigo Farinha. I will reply as soon as possible! "
     }, {
     "id": 6,
     "url": "https://rodrigofarinha.com/",

@@ -6,12 +6,12 @@ var documents = [{
     "body": "404 Page not found!Please use the search bar from the bottom left or visit our homepage! "
     }, {
     "id": 1,
-    "url": "https://rodrigofarinha.com/about",
+    "url": "https://rodrigofarinha.com/about/",
     "title": "About",
     "body": "This is my personal website, built with Jekyll and hosted on GitHub Pages. I’m using the Memoirs theme as a base—it’s a minimalist, clean, and responsive design that suited what I needed. If you’re interested in using it yourself, you can find more information here:Get the Memoirs Theme → "
     }, {
     "id": 2,
-    "url": "https://rodrigofarinha.com/authors",
+    "url": "https://rodrigofarinha.com/authors/",
     "title": "Authors",
     "body": "                                                                                                                                                                                    Rodrigo Farinha:         PhD in Marketing. Consultant &amp; Scholar focused on go-to-market strategy, digital transformation, and innovation, particularly in agribusiness and B2B sectors.                "
     }, {
@@ -21,12 +21,12 @@ var documents = [{
     "body": "Pulling latest posts from my Substack. Enable JavaScript or visit Substack. "
     }, {
     "id": 4,
-    "url": "https://rodrigofarinha.com/categories",
+    "url": "https://rodrigofarinha.com/categories/",
     "title": "Categories",
     "body": ""
     }, {
     "id": 5,
-    "url": "https://rodrigofarinha.com/contact",
+    "url": "https://rodrigofarinha.com/contact/",
     "title": "Contact",
     "body": "  Please send your message to Rodrigo Farinha. We will reply as soon as possible!   "
     }, {

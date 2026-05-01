@@ -42,21 +42,21 @@ Check out everything I'm working on my [Github page](https://github.com/rodrigol
 </div>
 
 <div class="project-entry">
-  <strong>deck.md: Markdown Briefs for AI-Generated Slide Decks</strong><br>
+  <strong>DECK.md: A Standard for Agent-Built Slide Decks</strong><br>
   <a href="https://github.com/rodrigolourencofarinha/deck.md" target="_blank">https://github.com/rodrigolourencofarinha/deck.md</a>
 
   <p class="abstract-text">
-    deck.md is a Markdown format for writing presentation briefs that AI agents can turn into slide decks. It keeps the human in charge of the argument—narrative structure, action titles, data, sources, and approval—while giving the agent a clear production contract for composition, visual treatment, slide generation, and render review.
+    DECK.md is a Markdown standard for creating slide decks with AI agents and deck-building skills. It gives agents a structured brief they can follow while keeping the human in control of the story, logic, sources, and final approval.
   </p>
 
   <p class="abstract-text">
-    The project includes a public deck-architect skill and supporting standards, examples, validation scripts, and showcase decks. It is designed for workflows where slides should be produced from an explicit brief instead of improvised from chat history, especially when the deck needs traceable analysis, selective evidence, and clear consulting-style takeaways.
+    The format is rooted in storytelling and consulting-style slides: clear narrative arcs, action titles, selective evidence, and visuals that support the argument. The repo includes the public deck-architect skill, standards, examples, validation scripts, and showcase decks.
   </p>
 
   <details>
     <summary><strong>Why I Created This</strong></summary>
     <p class="abstract-text">
-      I wanted a more reliable way to collaborate with AI on presentations. Slide generation becomes much more useful when the strategic logic is written down first, reviewed by a human, and only then turned into visuals. deck.md is my attempt to make that workflow structured, inspectable, and reusable.
+      I wanted a more reliable way to collaborate with AI on presentations. Slide generation works better when the strategic logic is written down first, reviewed by a human, and only then turned into visuals. DECK.md is my attempt to make that workflow structured, inspectable, and reusable.
     </p>
     <p class="footnote-text">
       The format is currently in alpha, so it is intentionally practical and evolving rather than polished into a final standard.
@@ -64,6 +64,6 @@ Check out everything I'm working on my [Github page](https://github.com/rodrigol
   </details>
 
   <p class="abstract-text">
-    👉 To explore it, visit the <a href="https://github.com/rodrigolourencofarinha/deck.md" target="_blank">GitHub repository</a> and start with the example <code>deck.md</code> files.
+    👉 To explore it, visit the <a href="https://github.com/rodrigolourencofarinha/deck.md" target="_blank">GitHub repository</a> and start with the example <code>DECK.md</code> files.
   </p>
 </div>

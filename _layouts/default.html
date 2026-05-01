@@ -40,7 +40,8 @@
 
 <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
 
-<div class="site-content {% if page.url == '/' and site.home_hero and site.posts | size >= 3 %} firstpage {% endif %}">
+{% assign posts_count = site.posts | size %}
+<div class="site-content {% if page.url == '/' and site.home_hero and posts_count >= 3 %} firstpage {% endif %}">
 
 <div class="container">
 

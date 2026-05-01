@@ -6,6 +6,11 @@ gem "jekyll", "~> 4.3.3"
 # Required for Ruby 3.x (was separated from standard library)
 gem "webrick", "~> 1.7"
 
+# Ruby 3.4+ no longer ships these as default bundled gems for Jekyll
+gem "csv"
+gem "logger"
+gem "base64"
+
 # Windows file watcher
 gem "wdm", ">= 0.1.0" if Gem.win_platform?
 

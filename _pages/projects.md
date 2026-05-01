@@ -42,6 +42,9 @@ Check out everything I'm working on my [Github page](https://github.com/rodrigol
 </div>
 
 <div class="project-entry">
+  <a href="https://github.com/rodrigolourencofarinha/deck.md" target="_blank">
+    <img src="/assets/logos/deck-md.png" alt="DECK.md logo" style="height: 60px; margin-bottom: 0.5rem;" />
+  </a>
   <strong>DECK.md: A Standard for Agent-Built Slide Decks</strong><br>
   <a href="https://github.com/rodrigolourencofarinha/deck.md" target="_blank">https://github.com/rodrigolourencofarinha/deck.md</a>
 

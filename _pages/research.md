@@ -13,17 +13,21 @@ I aim to produce research that is rigorous, transparent, and applicable, often g
 
 ## Ongoing Projects
 
-*Current as of December 18, 2025*
+*Current as of May 2, 2026*
 
 
 <div class="project-entry">
-  <strong>Practices for Matching Entities and Data Composition</strong><br>
+  <strong>
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6654778" target="_blank">
+      Practices for Matching Entities and Data Composition
+    </a>
+  </strong><br>
   <em>With Yakov Bart and Anatoli Colicev</em><br>
-  Status: Under Review at <em>International Journal of Research in Marketing</em>  
+  Status: Conditionally Accepted at <em>International Journal of Research in Marketing</em>  
   <details>
     <summary><strong>Show Abstract</strong></summary>
     <p class="abstract-text">
-      This methodological paper develops a transparent and reproducible pipeline for matching firm- and product-level entities across large, unstructured datasets. We combine deterministic rules, embedding-based similarity measures, and structured human validation to balance precision, recall, and auditability. The approach is designed for applied marketing research where ground truth is unavailable and scalability must be traded off against error control. We provide open-source code and detailed implementation guidance.
+      Marketing strategy research increasingly relies on multi-source datasets that must be linked across entities such as firms, brands, and products. Yet entity matching is often treated as an implicit data construction step, even though mismatches and missed links can change samples, attenuate estimates, and hinder replication. This research note synthesizes the identifier landscape most relevant to marketing strategy work, clarifying what common identifiers represent, where coverage breaks down, and when crosswalks are reliable. Building on established record linkage practice, we propose a cascading workflow comprising three approaches: deterministic joins on shared identifiers, probabilistic name-based linkage with explicit similarity and threshold rules, and ML or LLM-assisted screening for residual ambiguous cases. We then translate this workflow into an audit checklist that specifies what to record, report, and archive. The overall goal is to provide auditable standards that improve precision, transparency, and replicability in merged dataset studies.
     </p>
   </details>
 </div>
@@ -77,5 +81,3 @@ I aim to produce research that is rigorous, transparent, and applicable, often g
     </p>
   </details>
 </div>
-
-

@@ -4,6 +4,11 @@ title: Blog
 permalink: /blog/
 ---
 
+<header class="section-intro">
+  <h1>Blog</h1>
+  <p>Essays on AI, marketing strategy, sales, and how firms make better decisions.</p>
+</header>
+
 <!-- Posts Index -->
 {% if site.substack_feed_url and site.substack_feed_url != '' %}
 <div id="substack-feed"

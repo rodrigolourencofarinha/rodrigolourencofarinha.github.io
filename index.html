@@ -1,44 +1,50 @@
 ---
 layout: default
 ---
-<div class="text-left pt-2 pb-4">
-  <!-- <h1 class="display-4 font-weight-bold">Rodrigo Farinha</h1> -->
-  <p class="lead">PhD in quantitative marketing bridging research and practice</p>
-  <p class="mb-4">I study how firms innovate and make strategic choices. In parallel, I help companies tackle business problems in data-rich settings, using evidence to guide decisions rather than intuition.</p>
-</div>
+<section class="home-hero">
+  <a class="home-avatar" href="{{ site.baseurl }}/about/" aria-label="About Rodrigo Farinha">
+    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+  </a>
 
-  <div class="d-flex justify-content-left flex-wrap gap-3">
-    <a href="{{ site.baseurl }}/research/" class="btn btn-outline-dark m-2">Research</a>
-    <a href="{{ site.baseurl }}/practice/" class="btn btn-outline-dark m-2">Practice</a>
-    <a href="{{ site.baseurl }}/teaching/" class="btn btn-outline-dark m-2">Teaching</a>
-    <a href="{{ site.baseurl }}/projects/" class="btn btn-outline-dark m-2">Projects</a>
-    <a href="{{ site.baseurl }}/blog/" class="btn btn-outline-dark m-2">Blog</a>
-  </div>
+  <div class="home-hero-copy">
+    <p class="home-eyebrow">Marketing strategy | analytics | innovation</p>
+    <h1>Rodrigo Farinha</h1>
+    <p class="lead">PhD in quantitative marketing bridging research and practice.</p>
+    <p>I study how firms innovate and make strategic choices. In parallel, I help companies tackle business problems in data-rich settings, using evidence to guide decisions rather than intuition.</p>
 
-  <!-- Social / External links row (icons) -->
-  <div class="social-links d-flex justify-content-left flex-wrap mt-2">
-    <a class="icon-btn m-2" href="https://www.linkedin.com/in/rodrigolourencofarinha" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
-      <i class="fa-brands fa-linkedin"></i>
-    </a>
-    <a class="icon-btn m-2" href="https://github.com/rodrigolourencofarinha" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
-      <i class="fa-brands fa-github"></i>
-    </a>
-    <a class="icon-btn m-2" href="https://scholar.google.com/citations?user=uG2NW7sAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
-      <i class="fa-solid fa-graduation-cap"></i>
-    </a>
-    <a class="icon-btn m-2" href="https://orcid.org/0000-0002-3364-8642" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID">
-      <i class="fa-brands fa-orcid"></i>
-    </a>
-    <a class="icon-btn m-2" href="{{ site.substack_publication_url | default: 'https://rodrigofarinha.substack.com' }}" target="_blank" rel="noopener" aria-label="Substack" title="Substack">
-      <i class="fa-solid fa-rss"></i>
-    </a>
-    <a class="icon-btn m-2" href="{{ site.baseurl }}/assets/pdf/Farinha_Vita_v20251020.pdf" target="_blank" rel="noopener" aria-label="Vita (PDF)" title="Vita (PDF)">
-      <i class="fa-regular fa-file-lines"></i>
-    </a>
-    <a class="icon-btn m-2" href="{{ site.baseurl }}/contact/" aria-label="Contact" title="Contact">
-      <i class="fa-regular fa-envelope"></i>
-    </a>
+    <div class="home-actions">
+      <a href="{{ site.baseurl }}/research/" class="btn btn-outline-dark">Research</a>
+      <a href="{{ site.baseurl }}/practice/" class="btn btn-outline-dark">Practice</a>
+      <a href="{{ site.baseurl }}/teaching/" class="btn btn-outline-dark">Teaching</a>
+      <a href="{{ site.baseurl }}/projects/" class="btn btn-outline-dark">Projects</a>
+      <a href="{{ site.baseurl }}/blog/" class="btn btn-outline-dark">Blog</a>
+    </div>
+
+    <div class="social-links d-flex justify-content-left flex-wrap">
+      <a class="icon-btn" href="https://www.linkedin.com/in/rodrigolourencofarinha" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a class="icon-btn" href="https://github.com/rodrigolourencofarinha" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a class="icon-btn" href="https://scholar.google.com/citations?user=uG2NW7sAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
+        <i class="fa-solid fa-graduation-cap"></i>
+      </a>
+      <a class="icon-btn" href="https://orcid.org/0000-0002-3364-8642" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID">
+        <i class="fa-brands fa-orcid"></i>
+      </a>
+      <a class="icon-btn" href="{{ site.substack_publication_url | default: 'https://rodrigofarinha.substack.com' }}" target="_blank" rel="noopener" aria-label="Substack" title="Substack">
+        <i class="fa-solid fa-rss"></i>
+      </a>
+      <a class="icon-btn" href="{{ site.baseurl }}/assets/pdf/Farinha_Vita_v20251020.pdf" target="_blank" rel="noopener" aria-label="Vita (PDF)" title="Vita (PDF)">
+        <i class="fa-regular fa-file-lines"></i>
+      </a>
+      <a class="icon-btn" href="{{ site.baseurl }}/contact/" aria-label="Contact" title="Contact">
+        <i class="fa-regular fa-envelope"></i>
+      </a>
+    </div>
   </div>
+</section>
 
 <hr>
 
@@ -60,4 +66,3 @@ layout: default
     {% endfor %}
   </div>
 {% endif %}
-

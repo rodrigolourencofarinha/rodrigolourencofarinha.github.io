@@ -52,17 +52,15 @@
         <!-- <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}"> -->
     <!-- </a>   -->
    
+    {% unless page.url == "/" %}
     <a class="navbar-brand text-dark text-decoration-none" href="{{ site.baseurl }}/">
-        {% if page.url == "/" %}
-          <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}" style="max-height: 160px;">
-        {% else %}
-            <span class="site-name">Rodrigo Farinha</span>
-        {% endif %}
+        <span class="site-name">Rodrigo Farinha</span>
       </a>
+    {% endunless %}
 
     <!-- Site Tag
     ================================================== -->
-    {% if page.url == '/' %}
+    {% if page.url == '/' and site.home_hero %}
         <p class="sitetag">
             {{ site.description }}
         </p>

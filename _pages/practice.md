@@ -15,16 +15,18 @@ I have worked as a strategy consultant and project manager for over ten years, l
 
 ### Selected Clients & Engagements
 
-<div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; align-items: center; padding: 1.5rem 0;">
-  <img src="/assets/logos/lge.png" alt="LGE" style="height: 80px;" />
-  <img src="/assets/logos/bayer.png" alt="Bayer" style="height: 80px;" />
-  <img src="/assets/logos/basf.png" alt="BASF" style="height: 60px;" />
-  <img src="/assets/logos/syngenta.png" alt="Syngenta" style="height: 60px;" />
-  <img src="/assets/logos/upl.png" alt="UPL" style="height: 60px;" />
-  <img src="/assets/logos/monsanto.png" alt="Monsanto" style="height: 60px;" />
-  <img src="/assets/logos/nzte.png" alt="New Zealand Trade & Enterprise" style="height: 60px;" />
-  <img src="/assets/logos/lightsmith.png" alt="Lightsmith Group" style="height: 60px;" />
-  <img src="/assets/logos/blao.png" alt="BLAO" style="height: 60px;" />
+<div class="client-logo-grid" aria-label="Selected clients and engagements">
+  <span class="client-logo-tile"><img src="/assets/logos/lge.png" alt="LGE" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/bayer.png" alt="Bayer" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/basf.png" alt="BASF" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/syngenta.png" alt="Syngenta" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/upl.png" alt="UPL" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/monsanto.png" alt="Monsanto" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/honda.svg" alt="Honda" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/decathlon.svg" alt="Decathlon" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/nzte.png" alt="New Zealand Trade & Enterprise" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/lightsmith.png" alt="Lightsmith Group" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/blao.png" alt="BLAO" /></span>
 </div>
 
 - Led go-to-market strategy design and rollout across 20+ countries, developing customer segmentation models to support international expansion and commercial efficiency.

@@ -17,6 +17,15 @@ Do not commit:
 
 Before committing content changes, review the rendered page and any linked files as if they were already live on the public internet.
 
+## License and reuse
+
+This repository mixes website code with personal and third-party content.
+
+- Website code written for this repository may be reused under the license terms in `LICENSE.txt`.
+- The Memoirs theme, Bootstrap, Prism, Lunr, jQuery, Font Awesome, and other bundled third-party assets remain under their own upstream licenses and notices.
+- Personal content is not open-licensed: page copy, blog posts, CV/PDF files, portraits, biographies, and academic/professional materials are all rights reserved unless a file states otherwise.
+- Brand/client logos are included only as part of Rodrigo Farinha's professional website and remain the property of their respective owners.
+
 ## Local setup
 
 The macOS system Ruby is too old for this repository's locked Bundler version. Use Homebrew Ruby 3.4 when running local commands:
@@ -68,8 +77,7 @@ bundle exec jekyll build --destination /tmp/rodrigo-site-build
 | `_includes/` | Reusable HTML fragments such as head, comments, post cards, and search |
 | `_sass/` | Theme and Bootstrap Sass partials |
 | `assets/` | Images, logos, PDFs, JavaScript, fonts, and CSS entrypoint |
-| `_site/` | Generated build output; do not edit directly |
-| `_Backup/` | Archived site copies; do not edit unless intentionally restoring something |
+| `_site/` | Generated build output; do not edit or commit |
 
 ## Content workflow
 
@@ -81,4 +89,4 @@ bundle exec jekyll build --destination /tmp/rodrigo-site-build
 
 ## Deployment
 
-The repository is configured for the custom domain in `CNAME` and `_config.yml`. Deployment is expected to happen through the GitHub Pages / repository hosting flow tied to this public repository.
+The repository is configured for the custom domain in `CNAME` and `_config.yml`. Deployment is expected to happen through the GitHub Pages / repository hosting flow tied to this public repository. Generated output should be produced by the hosting workflow or by local builds, not maintained by hand in git.

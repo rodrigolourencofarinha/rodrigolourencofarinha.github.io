@@ -1,6 +1,52 @@
-Theme License: MIT (https://bootstrapstarter.com/license/)
+Code License
+============
 
-Credits: 
-- Letter PNG Designed By starwash from <a href="https://pngtree.com/">Pngtree.com</a>
+Unless a file says otherwise, website code written specifically for this
+repository is licensed under the MIT License.
+
+Copyright (c) Rodrigo Farinha
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+the website code and associated documentation files in this repository, to deal
+in the code without restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+code, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the code.
+
+THE CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE CODE OR THE USE OR OTHER DEALINGS IN THE CODE.
+
+Content and Brand Assets
+========================
+
+The MIT license above does not apply to personal, academic, or professional
+content in this repository, including page copy, blog posts, CV/PDF files,
+portraits, biographies, teaching materials, research descriptions, and similar
+materials. Those materials are all rights reserved unless a specific file says
+otherwise.
+
+Client, company, project, and product logos are included only for identification
+and website presentation. They remain the property of their respective owners and
+are not licensed for reuse by this repository.
+
+Third-Party Notices
+===================
+
+This site is based on the Memoirs Jekyll theme. Theme license:
+https://bootstrapstarter.com/license/
+
+Additional bundled third-party code and assets, including Bootstrap, Prism,
+Lunr, jQuery, Font Awesome, and Casper icon fonts, remain subject to their own
+upstream licenses and notices.
+
+Original theme credits:
+
+- Letter PNG Designed By starwash from https://pngtree.com/
 - Bootstrap, licensed MIT, docs CC BY 3.0.
 - Unsplash images.

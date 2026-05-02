@@ -1,8 +1,9 @@
 {
   "name": "rodrigolourencofarinha.github.io",
   "version": "1.0.0",
-  "description": "[Live Demo](https://wowthemesnet.github.io/jekyll-theme-memoirs/) | [Docs & Download](https://bootstrapstarter.com/jekyll-theme-memoirs/) |  [Buy me a coffee](https://www.wowthemes.net/donate/)",
+  "description": "Source for Rodrigo Farinha's personal Jekyll website.",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "build": "bundle exec jekyll build",
     "serve": "bundle exec jekyll serve --livereload",
@@ -15,11 +16,11 @@
     "url": "git+https://github.com/rodrigolourencofarinha/rodrigolourencofarinha.github.io.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Rodrigo Farinha",
+  "license": "SEE LICENSE IN LICENSE.txt",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/rodrigolourencofarinha/rodrigolourencofarinha.github.io/issues"
   },
-  "homepage": "https://github.com/rodrigolourencofarinha/rodrigolourencofarinha.github.io#readme"
+  "homepage": "https://rodrigofarinha.com"
 }

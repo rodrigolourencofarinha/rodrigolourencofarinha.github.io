@@ -3,6 +3,7 @@
 
 # Jekyll build artifacts
 /_site/
+/feed.xml
 output/
 /.sass-cache/
 /.jekyll-cache/

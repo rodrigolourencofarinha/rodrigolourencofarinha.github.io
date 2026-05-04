@@ -91,6 +91,21 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 1.15rem;
     text-decoration: none;
 }
+.icon-btn .brand-icon {
+    width: 1.12rem;
+    height: 1.12rem;
+    fill: currentColor;
+}
+.icon-btn .cv-icon {
+    width: 1.55rem;
+    height: 1.55rem;
+}
+.icon-btn .cv-icon text {
+    fill: currentColor;
+    font-family: Arial, sans-serif;
+    font-size: 7px;
+    font-weight: 700;
+}
 .icon-btn:hover, .icon-btn:focus {
     background: $primary;
     color: #111;

@@ -5,25 +5,24 @@ permalink: /research/
 comments: false
 ---
 
-I’m a quantitative researcher focused on empirical problems in marketing strategy. My work investigates how firms innovate, price, and compete—especially in contexts shaped by regulation, digitalization, and shifting customer behavior.
+I am a quantitative researcher focused on empirical problems in marketing strategy. My work studies how firms innovate, compete, and allocate attention and resources in contexts shaped by digitalization, sustainability, regulation, and changing customer behavior.
 
-I aim to produce research that is rigorous, transparent, and applicable, often grounded in real-world business challenges and developed through collaboration with firms, data providers, and policy institutions. Methodologically, I combine applied econometric techniques—such as panel data models, instrumental variables, and time-varying effect models—with AI-based tools for entity matching, text analysis, and classification.
+My research combines applied econometrics with large-scale data construction. I use panel data methods, instrumental variables, time-varying effect models, entity matching, text analysis, and AI-assisted classification to build transparent empirical designs that connect academic theory with real business decisions.
 
 ---
 
 ## Ongoing Projects
 
-*Current as of May 2, 2026*
-
+*Current as of May 27, 2026*
 
 <div class="project-entry">
   <strong>
     <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6654778" target="_blank">
-      Practices for Matching Entities and Data Composition
+      Does it Match? Guidelines for Merging Secondary Datasets in the Marketing Strategy Field
     </a>
   </strong><br>
   <em>With Yakov Bart and Anatoli Colicev</em><br>
-  Status: Conditionally Accepted at <em>International Journal of Research in Marketing</em>  
+  Status: Conditionally accepted at <em>International Journal of Research in Marketing</em>
   <details>
     <summary><strong>Show Abstract</strong></summary>
     <p class="abstract-text">
@@ -35,49 +34,84 @@ I aim to produce research that is rigorous, transparent, and applicable, often g
 <div class="project-entry">
   <strong>
     <a href="https://papers.ssrn.com/abstract=5343807" target="_blank">
-      Doing Good, Innovating Less? The Role of ESG Performance in Product Innovation
+      Does ESG Performance Hinder Product Innovation?
     </a>
   </strong><br>
-  <em>With Yakov Bart and Anatoli Colicev</em><br>
-  Status: Preparing Submission  
+  <em>With Anatoli Colicev and Yakov Bart</em><br>
+  Status: Preparing submission to <em>Journal of Marketing</em>; target July 2026
   <details>
     <summary><strong>Show Abstract</strong></summary>
     <p class="abstract-text">
       As firms increasingly commit to environmental, social, and governance (ESG) goals, an open question is whether these commitments complement or constrain innovation. Drawing on the attention-based view of the firm, we argue that ESG initiatives can absorb managerial attention and organizational resources, potentially crowding out product innovation.
       <br><br>
-      Using quarterly panel data on 457 publicly listed U.S. firms observed from 2007 to 2021, we find that stronger ESG performance is associated with fewer new product introductions. This relationship is moderated by firm context: R&D intensity mitigates the negative association, competitive pressure sustains innovation incentives, and high profitability amplifies managerial risk aversion. The findings highlight an important trade-off between purpose and innovation and offer guidance on aligning sustainability commitments with innovation strategy.
+      Using quarterly panel data on publicly listed U.S. firms, we examine how ESG performance relates to new product introductions and how this relationship varies with firm context. The project studies whether R&amp;D intensity, competitive pressure, profitability, and financial constraints shape firms' ability to sustain innovation while pursuing sustainability objectives. The findings speak to an important trade-off between purpose and innovation and offer guidance on aligning ESG commitments with product strategy.
     </p>
   </details>
 </div>
 
 <div class="project-entry">
-  <strong>
-    <a href="https://www.msi.org/working-paper/out-with-the-new-in-with-the-old-the-impact-of-incremental-innovations-on-market-share-gains/" target="_blank">
-      Out with the New, In with the Old: The Impact of Incremental Innovations on Market Share Gains
-    </a>
-  </strong><br>
-  <em>With Leandro Guissoni, Jonny Rodrigues, and Thales Teixeira</em><br>
-  Status: Preparing Submission  
+  <strong>Does ESG Performance Constrain or Stimulate Innovation? Evidence from Firm-Level Patenting</strong><br>
+  <em>With Anatoli Colicev, Yakov Bart, and Serguei Netessine</em><br>
+  Status: Empirical strategy development; target <em>Management Science</em>, August 2026
   <details>
     <summary><strong>Show Abstract</strong></summary>
     <p class="abstract-text">
-      Traditional innovation research emphasizes radical breakthroughs, yet many firms rely on incremental advancements to sustain competitive positioning. This paper examines whether, and under what conditions, incremental innovations can generate greater market share gains than radical innovations.
+      This project examines whether ESG performance changes the direction and composition of firms' innovative activity. Rather than treating sustainability as a simple driver of more or less innovation, we study whether ESG-oriented firms reallocate innovative effort across technological domains.
       <br><br>
-      Using a novel panel dataset from a large biochemical industry—spanning more than 700 products, 19,000 customers, and 72 monthly periods—we exploit variation in firm status, innovation type, and price-adjusted efficacy to identify the relative performance of incremental versus radical innovations. We find that incremental innovations introduced by nondominant firms achieve systematically higher market share gains, driven by localized adaptation and differential adoption among informed customers. These results highlight the strategic value of incremental innovation as a competitive growth mechanism.
+      Using firm-level patenting data linked to sustainability measures, we distinguish between sustainability-aligned and non-aligned technological classes. The empirical design investigates whether ESG performance stimulates innovation in some domains while constraining it in others, and whether these patterns vary with firms' resources, competitive environment, and strategic orientation.
     </p>
   </details>
 </div>
 
 <div class="project-entry">
-  <strong>Sustainability Orientation and the Reallocation of Innovative Effort</strong><br>
-  <em>With Serguei Netessine, Yakov Bart, and Anatoli Colicev</em><br>
-  Status: Working Paper  
+  <strong>Complement or Compete: The Interplay Between Channel Type and Product Innovation Type in Determining Product Sales</strong><br>
+  <em>With Kusum Ailawadi, Leandro Guissoni, Jonny Rodrigues, and Thales Teixeira</em><br>
+  Status: Empirical strategy development; target <em>Journal of the Academy of Marketing Science</em>, September 2026
   <details>
     <summary><strong>Show Abstract</strong></summary>
     <p class="abstract-text">
-      Prior research often treats sustainability orientation as a driver of overall innovation performance. We argue instead that sustainability primarily affects the <em>allocation</em> of innovative effort across technological domains. Drawing on the attention-based view of the firm, we propose that sustainability-oriented firms redirect innovation toward sustainability-aligned technologies, potentially crowding out innovation in non-aligned areas.
+      This project studies how product innovation performance depends on the channels through which firms sell. Innovation research often distinguishes between new products and incremental improvements, while channel research emphasizes how direct and indirect routes to market shape incentives, information flows, and adoption. We bring these perspectives together by asking when channel type complements or competes with different forms of product innovation.
       <br><br>
-      We test this argument using large-scale patent data linked to firm-level sustainability measures, distinguishing between sustainability-aligned and non-aligned technological classes. Using panel data methods, we show that stronger sustainability orientation is associated with a systematic reallocation of patenting activity toward sustainability-related domains, rather than an increase in total innovation output. These effects vary with firms’ resource availability and competitive environment. The findings clarify how purpose reshapes firms’ innovation portfolios and contribute to research on sustainability, innovation strategy, and managerial attention.
+      The empirical setting uses detailed product, customer, and sales data from a large biochemical industry. The project examines how channel structure conditions the sales returns to different innovation types, with attention to customer adoption, market-share gains, and the strategic role of incremental innovation.
     </p>
   </details>
 </div>
+
+<div class="project-entry">
+  <strong>When Executives and Customers Disagree: The Consequences of Strategic Misalignment</strong><br>
+  <em>With Rajkumar Venkatesan, Leandro Guissoni, and Jonny Rodrigues</em><br>
+  Status: Data collection
+  <details>
+    <summary><strong>Show Abstract</strong></summary>
+    <p class="abstract-text">
+      Firms often make strategic choices based on executive beliefs about customer priorities, market positioning, and the sources of competitive advantage. This project studies what happens when those beliefs diverge from customers' own perceptions. We examine whether executive-customer misalignment affects strategic execution and commercial outcomes, and which types of disagreement appear most consequential for firm performance.
+    </p>
+  </details>
+</div>
+
+---
+
+## Selected Publications
+
+**Position Papers**
+
+- Farinha, R. L., Guissoni, L., & Prado, L. (2025). The ideal salesperson in digital times: consultant or facilitator? <em>GV-executivo</em>, 24(3), e92528.
+- Guissoni, L. A., & Farinha, R. L. (2019). E-commerce with results. <em>GV-executivo</em>, 18(1), 40-42.
+
+**Book Chapters**
+
+- Guissoni, L. A., Schunck, J. G., Vieira, V. A., & Farinha, R. L. (2022). Digital organizations. In M. A. Conejero, M. A. Oliveira, & M. M. Abdalla (Eds.), <em>Administration: Concepts, Theory, and Practice Applied to Brazilian Reality</em> (1st ed., Vol. 1). São Paulo: Gen.
+- Prado, L. S., Guissoni, L. A., & Farinha, R. L. (2021). Tools for digitalization in agribusiness. In M. Fava Neves (Ed.), <em>Tools for the Future of Agribusiness</em> (1st ed., Vol. 1, pp. 191-317). Caieiras, São Paulo: Gente.
+
+**Case Study**
+
+- Scare, R. F., Gray, A. W., Farinha, R. L., Fullerton, E. C., & Neves, M. F. (2018). Growth strategies for a commercial farm: The AgroPastoril Campanelli case study. <em>International Food and Agribusiness Management Review</em>, 21, 161-178.
+
+---
+
+## Conference and Invited Presentations
+
+- "Does ESG Performance Hinder Product Innovation" - ISMS Marketing Science Conference, June 2026, Portugal; Marketing Dynamics Conference, May 2026, France.
+- "Complement or Compete: The Interplay Between Channel Type and Product Innovation Type in Determining Product Sales" - ISMS Marketing Science Conference, June 2026, Portugal.
+- "Out with the New, In with the Old: The Impact of Reformulating Existing Ingredients on Market Share Gains" - ISMS Marketing Science Conference, June 2025, Washington, DC; San Diego State University, January 2025, San Diego, CA; Theory + Practice in Marketing, May 2024, Austin, TX; Fundação Getulio Vargas, March 2024, São Paulo, Brazil; University of California San Diego, March 2023, San Diego, CA.
+- IFAMA Annual World Conference, 2017, Miami, FL; and 2016, Aarhus, Denmark.

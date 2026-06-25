@@ -5,21 +5,26 @@ permalink: /teaching/
 comments: false
 ---
 
-I teach topics related to marketing strategy, innovation, and digital transformation. My approach combines practical experience from consulting projects with insights from academic research. The goal is to help participants apply concepts clearly and effectively in their own work.
+I teach marketing strategy, innovation, artificial intelligence in business, analytics, and digital transformation. My teaching combines academic research, consulting experience, and practical exercises so participants can connect frameworks to decisions they actually face.
+
+Across MBA, graduate, executive education, and in-company settings, my sessions are designed to be clear, applied, and interactive. Recent instructor ratings range from 4.4 to 4.8 out of 5.0.
 
 ---
 
 ## Courses and Topics
 
-I've taught in MBA programs, executive education, and custom sessions for companies in agriculture, chemicals, technology, and related industries.
+I have taught or supported courses in MBA programs, DBA and graduate settings, undergraduate programs, executive education, and custom company sessions.
 
 #### Topics include:
 
-- Strategic marketing planning  
-- Innovation and product strategy  
-- Digital transformation in business  
-- Customer-centric thinking  
-- Analytics and decision-making  
+- Artificial intelligence in business and GenAI for decision-making
+- Marketing strategy, planning, and management
+- Digital transformation and disruption
+- Innovation, product strategy, and new product development
+- Marketing channels and sales transformation
+- Marketing analytics, metrics, and data-driven decision-making
+- Customer-centric thinking and strategic alignment
+- Agribusiness strategy and implementation
 
 ---
 
@@ -27,28 +32,32 @@ I've taught in MBA programs, executive education, and custom sessions for compan
 
 **MBA and Graduate Programs**
 
-- *Strategic Marketing Planning* — University of São Paulo (USP)
-- *Digital Transformation & Disruption* — University of São Paulo (USP), ESPM  
-- *Marketing Channels Management* — Fundação Getulio Vargas (FGV)
+- *Artificial Intelligence in Business* - School of Higher Education in Advertising and Marketing (ESPM)
+- *Digital Transformation & Disruption* - University of São Paulo (USP), ESPM
+- *Strategic Marketing Planning and Management* - University of São Paulo (USP)
+- *Marketing Channels* - Fundação Getulio Vargas (FGV)
+- *Marketing Management* - MBA
+- *Trends in Marketing* - DBA teaching assistant
 
-**In-Company Sessions**  
+**Undergraduate and Graduate Teaching Assistance**
 
-For companies including:
-- BASF  
-- John Deere  
-- Syngenta  
-- Adama  
-- Eurochem  
-- Fiagril (Dakang Global)
-- Rumo
+- *Marketing Analytics* - Undergraduate teaching assistant
+- *Marketing Metrics* - Undergraduate teaching assistant
+- *Comparative Food and Agriculture Systems (AGEC 710)* - Kansas State University, graduate teaching assistant
 
-Topics included portfolio planning, innovation in agribusiness, customer strategy, and team-level experimentation.
+**Executive Education and In-Company Sessions**
 
+- *Innovation & Digital Transformation* - John Deere, Syngenta, Adama, and Fiagril (Dakang Global)
+- *Applied Strategic Planning* - Eurochem
+- *New Product Development* - BASF
+- *GenAI Applications for Decision Making* - supported workshops with Prof. Thales Teixeira and Prof. Leandro Guissoni, including YPO Brazil and Harvard Business School workshop formats created by Prof. Karim Lakhani
+
+Topics in these sessions included portfolio planning, innovation in agribusiness, customer strategy, team-level experimentation, applied strategic planning, and AI-enabled decision-making.
 
 ---
 
 ## Format and Approach
 
-Sessions are structured to be practical and interactive. I use cases, exercises, and examples from real projects to help connect frameworks to decision-making in complex environments. Whether in the classroom or on-site with teams, the emphasis is on clarity, relevance, and application.
+Sessions are practical and interactive. I use cases, structured exercises, examples from real projects, and data-informed discussion to help participants translate concepts into decisions. Whether in a classroom, executive program, or on-site company workshop, the emphasis is on clarity, relevance, and application.
 
 If you'd like to discuss a speaking or teaching opportunity, feel free to [get in touch](/contact).

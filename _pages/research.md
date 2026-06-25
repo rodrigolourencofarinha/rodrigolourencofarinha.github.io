@@ -13,7 +13,7 @@ My research combines applied econometrics with large-scale data construction. I 
 
 ## Ongoing Projects
 
-*Current as of May 27, 2026*
+*Current as of June 22, 2026*
 
 <div class="project-entry">
   <strong>
@@ -22,7 +22,7 @@ My research combines applied econometrics with large-scale data construction. I 
     </a>
   </strong><br>
   <em>With Yakov Bart and Anatoli Colicev</em><br>
-  Status: Conditionally accepted at <em>International Journal of Research in Marketing</em>
+  Status: Accepted at <em>International Journal of Research in Marketing</em>
   <details>
     <summary><strong>Show Abstract</strong></summary>
     <p class="abstract-text">
@@ -38,7 +38,7 @@ My research combines applied econometrics with large-scale data construction. I 
     </a>
   </strong><br>
   <em>With Anatoli Colicev and Yakov Bart</em><br>
-  Status: Preparing submission to <em>Journal of Marketing</em>; target July 2026
+  Status: Preparing for submission to <em>Journal of Marketing</em>; target July 2026
   <details>
     <summary><strong>Show Abstract</strong></summary>
     <p class="abstract-text">
@@ -50,7 +50,7 @@ My research combines applied econometrics with large-scale data construction. I 
 </div>
 
 <div class="project-entry">
-  <strong>Does ESG Performance Constrain or Stimulate Innovation? Evidence from Firm-Level Patenting</strong><br>
+  <strong>How Sustainability Shapes Firms' Technological Trajectories</strong><br>
   <em>With Anatoli Colicev, Yakov Bart, and Serguei Netessine</em><br>
   Status: Empirical strategy development; target <em>Management Science</em>, August 2026
   <details>
@@ -78,7 +78,7 @@ My research combines applied econometrics with large-scale data construction. I 
 </div>
 
 <div class="project-entry">
-  <strong>When Executives and Customers Disagree: The Consequences of Strategic Misalignment</strong><br>
+  <strong>When Executives and Customer Disagree: The Consequences of Strategic Misalignment</strong><br>
   <em>With Rajkumar Venkatesan, Leandro Guissoni, and Jonny Rodrigues</em><br>
   Status: Data collection
   <details>
@@ -91,27 +91,9 @@ My research combines applied econometrics with large-scale data construction. I 
 
 ---
 
-## Selected Publications
-
-**Position Papers**
-
-- Farinha, R. L., Guissoni, L., & Prado, L. (2025). The ideal salesperson in digital times: consultant or facilitator? <em>GV-executivo</em>, 24(3), e92528.
-- Guissoni, L. A., & Farinha, R. L. (2019). E-commerce with results. <em>GV-executivo</em>, 18(1), 40-42.
-
-**Book Chapters**
-
-- Guissoni, L. A., Schunck, J. G., Vieira, V. A., & Farinha, R. L. (2022). Digital organizations. In M. A. Conejero, M. A. Oliveira, & M. M. Abdalla (Eds.), <em>Administration: Concepts, Theory, and Practice Applied to Brazilian Reality</em> (1st ed., Vol. 1). São Paulo: Gen.
-- Prado, L. S., Guissoni, L. A., & Farinha, R. L. (2021). Tools for digitalization in agribusiness. In M. Fava Neves (Ed.), <em>Tools for the Future of Agribusiness</em> (1st ed., Vol. 1, pp. 191-317). Caieiras, São Paulo: Gente.
-
-**Case Study**
-
-- Scare, R. F., Gray, A. W., Farinha, R. L., Fullerton, E. C., & Neves, M. F. (2018). Growth strategies for a commercial farm: The AgroPastoril Campanelli case study. <em>International Food and Agribusiness Management Review</em>, 21, 161-178.
-
----
-
 ## Conference and Invited Presentations
 
 - "Does ESG Performance Hinder Product Innovation" - ISMS Marketing Science Conference, June 2026, Portugal; Marketing Dynamics Conference, May 2026, France.
-- "Complement or Compete: The Interplay Between Channel Type and Product Innovation Type in Determining Product Sales" - ISMS Marketing Science Conference, June 2026, Portugal.
+- "Complement or Compete: The Interplay Between Channel Type and Product Innovation Type in Determining Product Sales" - ISMS Marketing Science Conference, June 2026, Portugal (forthcoming).
 - "Out with the New, In with the Old: The Impact of Reformulating Existing Ingredients on Market Share Gains" - ISMS Marketing Science Conference, June 2025, Washington, DC; San Diego State University, January 2025, San Diego, CA; Theory + Practice in Marketing, May 2024, Austin, TX; Fundação Getulio Vargas, March 2024, São Paulo, Brazil; University of California San Diego, March 2023, San Diego, CA.
 - IFAMA Annual World Conference, 2017, Miami, FL; and 2016, Aarhus, Denmark.

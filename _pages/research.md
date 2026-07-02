@@ -11,18 +11,18 @@ My research combines applied econometrics with large-scale data construction. I 
 
 ---
 
-## Ongoing Projects
-
-*Current as of June 22, 2026*
+## Published Papers
 
 <div class="project-entry">
-  <strong>
-    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6654778" target="_blank">
-      Does it Match? Guidelines for Merging Secondary Datasets in the Marketing Strategy Field
-    </a>
-  </strong><br>
-  <em>With Yakov Bart and Anatoli Colicev</em><br>
-  Status: Accepted at <em>International Journal of Research in Marketing</em>
+  <p>
+    Farinha, R. L., Colicev, A., &amp; Bart, Y. (2026).
+    <a href="https://doi.org/10.1016/j.ijresmar.2026.06.003" target="_blank" rel="noopener">
+      How to match entities in secondary datasets in marketing strategy: Three approaches
+    </a>.
+    <em>International Journal of Research in Marketing</em>.
+    <a href="https://doi.org/10.1016/j.ijresmar.2026.06.003" target="_blank" rel="noopener">https://doi.org/10.1016/j.ijresmar.2026.06.003</a>
+  </p>
+
   <details>
     <summary><strong>Show Abstract</strong></summary>
     <p class="abstract-text">
@@ -30,6 +30,12 @@ My research combines applied econometrics with large-scale data construction. I 
     </p>
   </details>
 </div>
+
+---
+
+## Ongoing Projects
+
+*Current as of July 2, 2026*
 
 <div class="project-entry">
   <strong>

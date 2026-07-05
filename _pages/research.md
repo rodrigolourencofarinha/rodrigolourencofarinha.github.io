@@ -35,7 +35,7 @@ My research combines applied econometrics with large-scale data construction. I 
 
 ## Ongoing Projects
 
-*Current as of July 2, 2026*
+*Current as of July 5, 2026*
 
 <div class="project-entry">
   <strong>
@@ -84,7 +84,7 @@ My research combines applied econometrics with large-scale data construction. I 
 </div>
 
 <div class="project-entry">
-  <strong>When Executives and Customer Disagree: The Consequences of Strategic Misalignment</strong><br>
+  <strong>When Executives and Customers Disagree: The Consequences of Strategic Misalignment</strong><br>
   <em>With Rajkumar Venkatesan, Leandro Guissoni, and Jonny Rodrigues</em><br>
   Status: Data collection
   <details>

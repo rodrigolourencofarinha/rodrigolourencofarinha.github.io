@@ -99,12 +99,11 @@ h1,h2,h3,h4,h5,h6 {
 .icon-btn .cv-icon {
     width: 1.55rem;
     height: 1.55rem;
-}
-.icon-btn .cv-icon text {
-    fill: currentColor;
-    font-family: Arial, sans-serif;
-    font-size: 7px;
-    font-weight: 700;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 .icon-btn:hover, .icon-btn:focus {
     background: $primary;

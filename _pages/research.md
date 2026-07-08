@@ -22,13 +22,6 @@ My research combines applied econometrics with large-scale data construction. I 
     <em>International Journal of Research in Marketing</em>.
     <a href="https://doi.org/10.1016/j.ijresmar.2026.06.003" target="_blank" rel="noopener">https://doi.org/10.1016/j.ijresmar.2026.06.003</a>
   </p>
-
-  <details>
-    <summary><strong>Show Abstract</strong></summary>
-    <p class="abstract-text">
-      Marketing strategy research increasingly relies on multi-source datasets that must be linked across entities such as firms, brands, and products. Yet entity matching is often treated as an implicit data construction step, even though mismatches and missed links can change samples, attenuate estimates, and hinder replication. This research note synthesizes the identifier landscape most relevant to marketing strategy work, clarifying what common identifiers represent, where coverage breaks down, and when crosswalks are reliable. Building on established record linkage practice, we propose a cascading workflow comprising three approaches: deterministic joins on shared identifiers, probabilistic name-based linkage with explicit similarity and threshold rules, and ML or LLM-assisted screening for residual ambiguous cases. We then translate this workflow into an audit checklist that specifies what to record, report, and archive. The overall goal is to provide auditable standards that improve precision, transparency, and replicability in merged dataset studies.
-    </p>
-  </details>
 </div>
 
 ---

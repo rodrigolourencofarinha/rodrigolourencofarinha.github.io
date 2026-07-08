@@ -17,14 +17,13 @@ I have taught or supported courses in MBA programs, DBA and graduate settings, u
 
 #### Topics include:
 
-- Artificial intelligence in business and GenAI for decision-making
-- Marketing strategy, planning, and management
+- Artificial intelligence in business
+- Marketing analytics, metrics, and data-driven decision-making
 - Digital transformation and disruption
+- Marketing strategy, planning, and management
 - Innovation, product strategy, and new product development
 - Marketing channels and sales transformation
-- Marketing analytics, metrics, and data-driven decision-making
 - Customer-centric thinking and strategic alignment
-- Agribusiness strategy and implementation
 
 ---
 
@@ -32,12 +31,14 @@ I have taught or supported courses in MBA programs, DBA and graduate settings, u
 
 **MBA and Graduate Programs**
 
+- *Digital Transformation & Disruption* - [UCLA Anderson School of Management](https://www.linkedin.com/company/ucla-anderson-school-of-management/)<sup>1</sup>, [Frankfurt School of Finance & Management](https://www.linkedin.com/company/frankfurtschool/)<sup>1</sup>, [KU Leuven](https://www.linkedin.com/company/ku_leuven/)<sup>1</sup>, Insper, University of São Paulo (USP), ESPM
 - *Artificial Intelligence in Business* - School of Higher Education in Advertising and Marketing (ESPM)
-- *Digital Transformation & Disruption* - University of São Paulo (USP), ESPM
 - *Strategic Marketing Planning and Management* - University of São Paulo (USP)
 - *Marketing Channels* - Fundação Getulio Vargas (FGV)
 - *Marketing Management* - MBA
 - *Trends in Marketing* - DBA teaching assistant
+
+<sup>1</sup> Part of the Insper International Program.
 
 **Undergraduate and Graduate Teaching Assistance**
 

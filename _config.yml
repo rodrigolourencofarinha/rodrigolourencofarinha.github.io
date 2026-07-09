@@ -2,10 +2,11 @@
 name: "Rodrigo Farinha"
 title: "Rodrigo Farinha"
 description: "Rodrigo Farinha"
-logo: 'assets/images/rodrigo_farinha.jpg' # Update with actual path later
+logo: 'assets/images/rodrigo_farinha_2024_round.png'
 favicon: 'assets/images/favicon.ico' # Update with actual path later
 baseurl: "" # Set for root deployment
 url: "https://rodrigofarinha.com" # Canonical site URL for sitemap/SEO
+assets_version: 20260708205000
 google_analytics: 'G-GETFNJX2YC' # Add Rodrigo's GA ID if provided
 # Disqus deprecated in favor of Giscus
 disqus: ''
@@ -38,7 +39,7 @@ authors:
   rodrigo:
     name: Rodrigo Farinha
     display_name: Rodrigo Farinha
-    avatar: 'assets/images/rodrigo_farinha.jpg' 
+    avatar: 'assets/images/rodrigo_farinha_2024_round.png'
     email: 'rodrigo.farinha@tuta.io' 
     web: 'https://rodrigofarinha.com' 
     twitter: 'https://x.com/rodrigofarinha'

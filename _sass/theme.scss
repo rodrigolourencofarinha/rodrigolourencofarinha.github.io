@@ -244,8 +244,15 @@ h1,h2,h3,h4,h5,h6 {
     display:block;
     width:min(1060px, calc(100vw - 48px));
     max-width:none;
+    padding-left:0;
+    padding-right:0;
     margin-left:auto;
     margin-right:auto;
+}
+.container:has(.section-intro) > .navbar-brand {
+    max-width:none;
+    padding-left:0;
+    padding-right:0;
 }
 .about-profile {
     width:min(1060px, calc(100vw - 48px));
@@ -926,6 +933,14 @@ img, img:hover {
 }
 
 // blog 
+.container > .navbar-brand {
+    display:block;
+    max-width:740px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
 .article-post, .entry-header, .comments, .rating, .authorbox {
     max-width: 740px;
     padding-left: 20px;
@@ -1443,6 +1458,10 @@ img, img:hover {
         }
     }
     .article-post, .entry-header, .comments, .rating, .authorbox { 
+        padding-left:0;
+        padding-right:0;
+    }
+    .container > .navbar-brand {
         padding-left:0;
         padding-right:0;
     }

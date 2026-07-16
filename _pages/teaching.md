@@ -31,7 +31,7 @@ I have taught or supported courses in MBA programs, DBA and graduate settings, u
 
 **MBA and Graduate Programs**
 
-- *Digital Transformation & Disruption* - [UCLA Anderson School of Management](https://www.linkedin.com/company/ucla-anderson-school-of-management/)<sup>1</sup>, [Frankfurt School of Finance & Management](https://www.linkedin.com/company/frankfurtschool/)<sup>1</sup>, [KU Leuven](https://www.linkedin.com/company/ku_leuven/)<sup>1</sup>, Insper, University of São Paulo (USP), ESPM
+- *Digital Transformation & Disruption* - UCLA Anderson School of Management<sup>1</sup>, Frankfurt School of Finance & Management<sup>1</sup>, KU Leuven<sup>1</sup>, Insper, University of São Paulo (USP), ESPM
 - *Artificial Intelligence in Business* - School of Higher Education in Advertising and Marketing (ESPM)
 - *Strategic Marketing Planning and Management* - University of São Paulo (USP)
 - *Marketing Channels* - Fundação Getulio Vargas (FGV)

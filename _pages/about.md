@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Rodrigo Farinha
+browser_title: About | Rodrigo Farinha
 description: "Biography of Rodrigo Farinha, a quantitative marketing scholar and management consultant working on marketing strategy, innovation, econometrics, and AI."
 permalink: /about/
 comments: false

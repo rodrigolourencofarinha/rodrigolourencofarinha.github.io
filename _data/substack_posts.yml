@@ -1,5 +1,5 @@
-# Current Substack articles rendered on the homepage at build time.
-# Keep newest first; the homepage displays the first three entries.
+# Current Substack articles rendered on the homepage and Blog page at build time.
+# Keep newest first; the homepage displays the first three entries and Blog displays all entries.
 - title: "How I Organize My Life"
   description: "How I Built a System That Finally Stuck"
   url: "https://rodrigofarinha.substack.com/p/how-i-organize-my-life"

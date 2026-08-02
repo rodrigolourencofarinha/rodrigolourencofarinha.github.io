@@ -9,11 +9,20 @@
 <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
 
+{% capture seo_markup %}
 {% if page.browser_title %}
 <title>{{ page.browser_title | escape }}</title>
 {% seo title=false %}
 {% else %}
 {% seo %}
+{% endif %}
+{% endcapture %}
+{% if page.url == '/' %}
+  {% assign website_name_json = '"name":"Rodrigo Farinha"' %}
+  {% assign website_name_with_alternates_json = '"name":"Rodrigo Farinha","alternateName":["Rodrigo Lourenço Farinha","Rodrigo L. Farinha","rodrigofarinha.com"]' %}
+  {{ seo_markup | replace_first: website_name_json, website_name_with_alternates_json }}
+{% else %}
+  {{ seo_markup }}
 {% endif %}
 
 {% if page.robots %}

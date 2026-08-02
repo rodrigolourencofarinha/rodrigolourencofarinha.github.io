@@ -24,9 +24,6 @@ body {
     line-height:1.7;
     background: #f4f4f4;
 }
-body:has(.about-profile) {
-    background:#fff;
-}
 a {
     color: darken($primary, 24%);
 }

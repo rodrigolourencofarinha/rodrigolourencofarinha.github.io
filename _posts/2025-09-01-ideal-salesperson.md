@@ -1,17 +1,16 @@
 ---
 layout: post
-title:  "The Ideal Salesperson"
+title:  "The Ideal Salesperson in the Age of Digital Platforms"
+description: "How digital platforms reshape selling, and how firms can match consultative or facilitative approaches to customer knowledge and product complexity."
 date:   2025-09-01 16:00:00 -0300
 author: rodrigo
 categories: articles
-image: assets/images/2025-09-01-ideal-salesperson.png
+image: assets/images/2025-09-01-ideal-salesperson.webp
+image_width: 1000
+image_height: 1000
 tags: [consumer behavior, consultative selling, decoupling, digitalization, personalization]
 # toc: true
 ---
-
-
-# The Ideal Salesperson in the Age of Digital Platforms: Consultant, or Facilitator?
-
 > **TL;DR:** The rise of digital platforms that provide product comparisons and qualified information has shifted power to customers, diminishing the traditional role of the salesperson. This article examines how companies should respond, proposing a segmentation matrix based on consumer knowledge and product complexity. Four sales approaches emerge: consultative selling for less‑informed customers with complex solutions; efficient facilitation for informed customers confronting complex offerings; educational support for less‑informed customers buying simple products; and simplified processes for well‑informed customers purchasing low‑complexity items. Managers are advised to adapt training, metrics and compensation to these segments to keep sales teams relevant in the digital age.
 
 
@@ -41,7 +40,7 @@ To understand the changes in consumer behaviour, it is essential to observe the 
 
 ** 1.**\ *The Transformation of the Consumer Value Chain in the Tourism Sector*
 
-![Diagram illustrating the transformation of the consumer value chain in the tourism sector.]({{ "/assets/images/2025-09-01-ideal-salesperson/figure1.png" | relative_url }})
+![Diagram illustrating the transformation of the consumer value chain in the tourism sector.]({{ "/assets/images/2025-09-01-ideal-salesperson/figure1.png" | relative_url }}){: width="1600" height="900" loading="lazy" decoding="async" }
 
 The reduction of the traditional influence of the seller is not restricted to a single sector. Multiple markets, from traditional consumer goods to B2B[^26], experience structural changes in the relationship between customer and supplier. In the real estate market, for example, platforms like Zillow have begun to replace stages that previously depended heavily on real estate agents: consumers now research properties, evaluate prices through algorithms (such as Zestimate) and even close deals more transparently and autonomously. In the automotive sector, sites such as CarGurus and WebMotors allow comparisons of vehicle models, financing rates (as on Comparabem.com.br) and insurance (as on Minuto Seguros), reducing visits to dealerships and decreasing the need for interaction with sellers to understand basic attributes. In agribusiness, networks such as Farmer Business Network decouple the purchase of inputs from direct contact with distributors by offering price comparisons, technical recommendations and agricultural practices through digital platforms.
 
@@ -72,7 +71,7 @@ Based on the discussions presented in this article, we propose a matrix (Figure 
 
 **Figure 2.** *Segmentation Matrix for Sales Approach*
 
-![Segmentation matrix for sales strategies.]({{ "/assets/images/2025-09-01-ideal-salesperson/figure2.png" | relative_url }})
+![Segmentation matrix for sales strategies.]({{ "/assets/images/2025-09-01-ideal-salesperson/figure2.png" | relative_url }}){: width="1185" height="900" loading="lazy" decoding="async" }
 
 ### Technical-Strategic Consultant (Less Informed Consumer & High Complexity Product or Service)
 

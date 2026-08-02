@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Blog
+description: "Articles by Rodrigo Farinha on quantitative marketing, innovation, artificial intelligence, sales, and evidence-based management."
 permalink: /blog/
 ---
 
@@ -30,3 +31,4 @@ permalink: /blog/
     {% endif %}
   </div>
 {% endif %}
+<p class="text-muted small mt-3">More essays and updates are available on <a href="{{ site.substack_publication_url }}" target="_blank" rel="noopener">Substack</a>.</p>

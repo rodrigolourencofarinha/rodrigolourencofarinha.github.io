@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Research
+description: "Research by Rodrigo Farinha on quantitative marketing, product innovation, ESG, marketing strategy, entity matching, applied econometrics, and AI-assisted analysis."
 permalink: /research/
 comments: false
 ---
@@ -32,7 +33,7 @@ My research combines applied econometrics with large-scale data construction. I 
 
 <div class="project-entry">
   <strong>
-    <a href="https://papers.ssrn.com/abstract=5343807" target="_blank">
+    <a href="https://papers.ssrn.com/abstract=5343807" target="_blank" rel="noopener">
       Does ESG Performance Hinder Product Innovation?
     </a>
   </strong><br>

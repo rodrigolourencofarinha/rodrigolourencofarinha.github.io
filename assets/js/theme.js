@@ -51,6 +51,7 @@ jQuery(document).ready(function($){
 // deferred style loading
 var loadDeferredStyles = function () {
 	var addStylesNode = document.getElementById("deferred-styles");
+	if (!addStylesNode) return;
 	var replacement = document.createElement("div");
 	replacement.innerHTML = addStylesNode.textContent;
 	document.body.appendChild(replacement);

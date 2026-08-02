@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+description: "Software and open projects by Rodrigo Farinha, including ProDeck and DECK.md for more efficient, structured presentation work."
 permalink: /projects/
 comments: false
 ---
@@ -12,11 +13,11 @@ Check out everything I'm working on my [Github page](https://github.com/rodrigol
 ---
 
 <div class="project-entry">
-  <a href="https://prodeck.pro/" target="_blank">
-    <img src="/assets/logos/prodeck.svg" alt="ProDeck logo" style="height: 60px; margin-bottom: 0.5rem;" />
+  <a href="https://prodeck.pro/" target="_blank" rel="noopener">
+    <img src="/assets/logos/prodeck.svg" alt="ProDeck logo" width="352" height="352" decoding="async" style="height: 60px; width: auto; margin-bottom: 0.5rem;" />
   </a>  
   <strong>ProDeck: PowerPoint Toolbar Add-in</strong><br>
-  <a href="https://prodeck.pro/" target="_blank">https://prodeck.pro/</a>
+  <a href="https://prodeck.pro/" target="_blank" rel="noopener">https://prodeck.pro/</a>
 
   <p class="abstract-text">
     ProDeck is a PowerPoint add-in designed to help users—especially consultants—work more efficiently with slides. It includes a suite of tools to assemble, format, align, and clean decks with fewer clicks. While many commercial tools offer similar or more advanced features, ProDeck was built to make these capabilities accessible to individuals and small firms that may not have the budget for premium software.
@@ -37,16 +38,16 @@ Check out everything I'm working on my [Github page](https://github.com/rodrigol
   </details>
 
   <p class="abstract-text">
-    👉 To install, visit the <a href="https://prodeck.pro/" target="_blank">website</a> and follow the instructions on the Releases page.
+    👉 To install, visit the <a href="https://prodeck.pro/" target="_blank" rel="noopener">website</a> and follow the instructions on the Releases page.
   </p>
 </div>
 
 <div class="project-entry">
-  <a href="https://github.com/rodrigolourencofarinha/deck.md" target="_blank">
-    <img src="/assets/logos/deck-md.png" alt="DECK.md logo" style="height: 60px; margin-bottom: 0.5rem;" />
+  <a href="https://github.com/rodrigolourencofarinha/deck.md" target="_blank" rel="noopener">
+    <img src="/assets/logos/deck-md.webp" alt="DECK.md logo" width="512" height="530" loading="lazy" decoding="async" style="height: 60px; width: auto; margin-bottom: 0.5rem;" />
   </a>
   <strong>DECK.md: A Standard for Agent-Built Slide Decks</strong><br>
-  <a href="https://github.com/rodrigolourencofarinha/deck.md" target="_blank">https://github.com/rodrigolourencofarinha/deck.md</a>
+  <a href="https://github.com/rodrigolourencofarinha/deck.md" target="_blank" rel="noopener">https://github.com/rodrigolourencofarinha/deck.md</a>
 
   <p class="abstract-text">
     DECK.md is a Markdown standard for creating slide decks with AI agents and deck-building skills. It gives agents a structured brief they can follow while keeping the human in control of the story, logic, sources, and final approval.
@@ -67,6 +68,6 @@ Check out everything I'm working on my [Github page](https://github.com/rodrigol
   </details>
 
   <p class="abstract-text">
-    👉 To explore it, visit the <a href="https://github.com/rodrigolourencofarinha/deck.md" target="_blank">GitHub repository</a> and start with the example <code>DECK.md</code> files.
+    👉 To explore it, visit the <a href="https://github.com/rodrigolourencofarinha/deck.md" target="_blank" rel="noopener">GitHub repository</a> and start with the example <code>DECK.md</code> files.
   </p>
 </div>

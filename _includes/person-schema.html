@@ -1,0 +1,34 @@
+{% if page.url == '/' or page.url == '/about/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#person",
+      "name": "Rodrigo Farinha",
+      "alternateName": ["Rodrigo Lourenço Farinha", "Rodrigo L. Farinha"],
+      "url": "{{ site.url }}/",
+      "image": "{{ site.url }}/{{ site.logo }}",
+      "description": {{ site.description | jsonify }},
+      "jobTitle": "Quantitative Marketing Scholar and Management Consultant",
+      "knowsAbout": [
+        "Quantitative Marketing",
+        "Marketing Strategy",
+        "Product Innovation",
+        "Applied Econometrics",
+        "Artificial Intelligence in Marketing"
+      ],
+      "sameAs": {{ site.social.links | jsonify }}
+    }{% if page.url == '/about/' %},
+    {
+      "@type": "ProfilePage",
+      "@id": "{{ site.url }}/about/#profile",
+      "url": "{{ site.url }}/about/",
+      "name": "About Rodrigo Farinha",
+      "mainEntity": { "@id": "{{ site.url }}/#person" }
+    }{% endif %}
+  ]
+}
+</script>
+{% endif %}

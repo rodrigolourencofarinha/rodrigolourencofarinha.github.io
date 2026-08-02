@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Teaching
+description: "Teaching by Rodrigo Farinha in marketing strategy, innovation, artificial intelligence, analytics, digital transformation, and executive education."
 permalink: /teaching/
 comments: false
 ---
@@ -61,4 +62,4 @@ Topics in these sessions included portfolio planning, innovation in agribusiness
 
 Sessions are practical and interactive. I use cases, structured exercises, examples from real projects, and data-informed discussion to help participants translate concepts into decisions. Whether in a classroom, executive program, or on-site company workshop, the emphasis is on clarity, relevance, and application.
 
-If you'd like to discuss a speaking or teaching opportunity, feel free to [get in touch](/contact).
+If you'd like to discuss a speaking or teaching opportunity, feel free to [get in touch](/contact/).

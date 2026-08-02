@@ -1,12 +1,15 @@
 # Site
 name: "Rodrigo Farinha"
 title: "Rodrigo Farinha"
-description: "Rodrigo Farinha"
-logo: 'assets/images/rodrigo_farinha_2024_round.png'
+tagline: "Quantitative Marketing, Innovation & AI"
+description: "Rodrigo Farinha is a quantitative marketing scholar and consultant researching marketing strategy, product innovation, applied econometrics, and artificial intelligence."
+logo: 'assets/images/rodrigo_farinha_2024_round.webp'
 favicon: 'assets/images/favicon.ico' # Update with actual path later
 baseurl: "" # Set for root deployment
 url: "https://rodrigofarinha.com" # Canonical site URL for sitemap/SEO
-assets_version: 20260708205000
+lang: en
+locale: en_US
+assets_version: 20260802170000
 google_analytics: 'G-GETFNJX2YC' # Add Rodrigo's GA ID if provided
 # Disqus deprecated in favor of Giscus
 disqus: ''
@@ -25,48 +28,67 @@ giscus:
   lang: 'en'          # interface language
 mailchimp-list: '' # Add Rodrigo's Mailchimp list if provided
 
-# Optional: pull posts from Substack via RSS (uses client-side fetch through rss2json.com)
-# Example feed: https://your-newsletter.substack.com/feed
-substack_feed_url: 'https://rodrigofarinha.substack.com/feed'
-# Optional homepage link for fallback if the feed fails to load
+# Keep the website's local posts crawlable; link to Substack for additional writing.
+substack_feed_url: ''
 substack_publication_url: 'https://rodrigofarinha.substack.com'
 include: ["_pages"]
 permalink: /:title/
 email: 'rodrigo.farinha@tuta.io' # Add Rodrigo's email if provided
+
+# SEO identity
+author:
+  name: Rodrigo Farinha
+  url: https://rodrigofarinha.com/
+  twitter: rodrigofarinha
+  type: Person
+twitter:
+  username: rodrigofarinha
+  card: summary_large_image
+social:
+  name: Rodrigo Farinha
+  links:
+    - https://www.linkedin.com/in/rodrigolourencofarinha/
+    - https://orcid.org/0000-0002-3364-8642
+    - https://scholar.google.com/citations?user=uG2NW7sAAAAJ
+    - https://github.com/rodrigolourencofarinha
+    - https://x.com/rodrigofarinha
+    - https://substack.com/@rodrigofarinha
+    - https://eaesp.fgv.br/pessoa/rodrigo-lourenco-farinha
+    - https://www.researchgate.net/profile/Rodrigo-Farinha
+    - http://lattes.cnpq.br/3155038714631364
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/images/rodrigo_farinha_2024_round.webp
+        width: 600
+        height: 600
+        alt: Rodrigo Farinha
 
 # Authors
 authors:
   rodrigo:
     name: Rodrigo Farinha
     display_name: Rodrigo Farinha
-    avatar: 'assets/images/rodrigo_farinha_2024_round.png'
+    avatar: 'assets/images/rodrigo_farinha_2024_round.webp'
     email: 'rodrigo.farinha@tuta.io' 
     web: 'https://rodrigofarinha.com' 
     twitter: 'https://x.com/rodrigofarinha'
     linkedin: 'https://www.linkedin.com/in/rodrigolourencofarinha'
-    description: "PhD in Marketing. Consultant & Scholar focused on go-to-market strategy, digital transformation, and innovation, particularly in agribusiness and B2B sectors."
+    github: 'https://github.com/rodrigolourencofarinha'
+    scholar: 'https://scholar.google.com/citations?user=uG2NW7sAAAAJ&hl=en'
+    orcid: 'https://orcid.org/0000-0002-3364-8642'
+    substack: 'https://rodrigofarinha.substack.com'
+    description: "Quantitative marketing scholar and management consultant focused on marketing strategy, product innovation, applied econometrics, and artificial intelligence."
 
 # Plugins
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-archives
-  - jekyll-figure
-    
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
-    
-# Pagination 
-paginate: 6
-paginate_path: /page:num/
-    
+
 # Other
 highlighter: rouge # Changed from none to enable syntax highlighting
 markdown: kramdown

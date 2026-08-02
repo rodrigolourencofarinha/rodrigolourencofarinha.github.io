@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+description: "Contact Rodrigo Farinha about research, teaching, speaking, consulting, and collaboration opportunities."
 permalink: /contact/
 comments: false
 ---
@@ -16,5 +17,6 @@ comments: false
 </div>
 </div>
 <textarea rows="8" class="form-control mb-3" name="message" placeholder="Message*" required></textarea>    
+<p class="small text-muted">This form is processed by Formspree. See the <a href="{{ site.baseurl }}/privacy/">privacy notice</a>.</p>
 <input class="btn btn-dark" type="submit" value="Send">
 </form>

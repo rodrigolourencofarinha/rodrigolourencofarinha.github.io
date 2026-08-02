@@ -5,14 +5,14 @@
     <div class="row">
         <div class="wrapavname col-md-3 text-center">
             {% if author.gravatar %}
-            <img  class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
+            <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&amp;d=mm&amp;r=x" alt="{{ author.display_name }}" width="70" height="70">
             {% else %}
-            <img  class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}">
+            <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}" width="70" height="70">
             {% endif %}
             <p class="mt-4 mb-0 small text-center">
-                <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author.web }}"><i class="fa fa-link"></i></a> 
-                <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author.twitter }}"><i class="fab fa-x-twitter"></i></a>
-                <a class="d-inline-block mx-1 text-dark" href="mailto:{{ author.email }}"><i class="fa fa-envelope"></i></a>
+                <a target="_blank" rel="noopener" class="d-inline-block mx-1 text-dark" href="{{ author.web }}" aria-label="Website"><i class="fa fa-link" aria-hidden="true"></i></a>
+                <a target="_blank" rel="noopener" class="d-inline-block mx-1 text-dark" href="{{ author.twitter }}" aria-label="X profile"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
+                <a class="d-inline-block mx-1 text-dark" href="mailto:{{ author.email }}" aria-label="Email Rodrigo Farinha"><i class="fa fa-envelope" aria-hidden="true"></i></a>
             </p>
         </div>
         <div class="col-md-9">

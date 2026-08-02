@@ -81,6 +81,8 @@ authors:
     scholar: 'https://scholar.google.com/citations?user=uG2NW7sAAAAJ&hl=en'
     orcid: 'https://orcid.org/0000-0002-3364-8642'
     substack: 'https://rodrigofarinha.substack.com'
+    cv_page: '/cv/'
+    cv_pdf: '/assets/pdf/Rodrigo_Farinha_CV.pdf'
     description: "Quantitative marketing scholar and management consultant focused on marketing strategy, product innovation, applied econometrics, and artificial intelligence."
 
 # Plugins

@@ -4,6 +4,8 @@ title: Research
 description: "Research by Rodrigo Farinha on quantitative marketing, product innovation, ESG, marketing strategy, entity matching, applied econometrics, and AI-assisted analysis."
 permalink: /research/
 comments: false
+seo:
+  type: CollectionPage
 ---
 
 I am a quantitative researcher focused on empirical problems in marketing strategy. My work studies how firms innovate, compete, and allocate attention and resources in contexts shaped by digitalization, sustainability, regulation, and changing customer behavior.
@@ -13,15 +15,26 @@ My research combines applied econometrics with large-scale data construction. I 
 ---
 
 ## Published Papers
+{: #published-papers}
 
-<div class="project-entry">
+<div class="project-entry" id="how-to-match-entities">
   <p>
     Farinha, R. L., Colicev, A., &amp; Bart, Y. (2026).
     <a href="https://doi.org/10.1016/j.ijresmar.2026.06.003" target="_blank" rel="noopener">
       How to match entities in secondary datasets in marketing strategy: Three approaches
     </a>.
     <em>International Journal of Research in Marketing</em>.
-    <a href="https://doi.org/10.1016/j.ijresmar.2026.06.003" target="_blank" rel="noopener">https://doi.org/10.1016/j.ijresmar.2026.06.003</a>
+    DOI: <a href="https://doi.org/10.1016/j.ijresmar.2026.06.003" target="_blank" rel="noopener">10.1016/j.ijresmar.2026.06.003</a>
+  </p>
+  <p>
+    This research note develops a transparent and auditable workflow for matching entities across secondary marketing datasets using deterministic, probabilistic, and machine-learning- and LLM-assisted approaches.
+  </p>
+  <p>
+    <a href="https://www.sciencedirect.com/science/article/pii/S0167811626000571" target="_blank" rel="noopener">Published article</a>
+    &middot;
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6654778" target="_blank" rel="noopener">SSRN preprint</a>
+    &middot;
+    <a href="https://github.com/rodrigolourencofarinha/Entity-Matching-Demo" target="_blank" rel="noopener">Code and examples</a>
   </p>
 </div>
 

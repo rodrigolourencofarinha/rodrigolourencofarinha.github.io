@@ -30,6 +30,8 @@ I have taught or supported courses in MBA programs, DBA and graduate settings, u
 
 ## Recent Teaching Experience
 
+At Insper, I teach the international executive course [Digital Disruption and Transformation: Customer-Centric Business Models and Strategic Response](https://ee.insper.edu.br/cursos/internacional/digital-disruption-and-transformation-customer-centric-business-models-and-strategic-response/), focused on customer-centric business models and how established firms respond to digital disruption.
+
 **MBA and Graduate Programs**
 
 - *Digital Transformation & Disruption* - UCLA Anderson School of Management<sup>1</sup>, Frankfurt School of Finance & Management<sup>1</sup>, KU Leuven<sup>1</sup>, Insper, University of São Paulo (USP), ESPM

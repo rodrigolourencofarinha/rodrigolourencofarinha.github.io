@@ -5,8 +5,9 @@ description: "Biography of Rodrigo Farinha, a quantitative marketing scholar and
 permalink: /about/
 comments: false
 imageshadow: true
+author: false
 seo:
-  type: ProfilePage
+  type: WebPage
 ---
 
 <section class="about-profile" aria-label="About Rodrigo Farinha">
@@ -25,11 +26,12 @@ seo:
     </div>
 
     <p class="mt-4 mb-0"><strong>Academic and professional profiles:</strong>
-      <a href="{{ site.authors.rodrigo.scholar }}" target="_blank" rel="noopener">Google Scholar</a>,
-      <a href="{{ site.authors.rodrigo.orcid }}" target="_blank" rel="noopener">ORCID</a>,
-      <a href="{{ site.authors.rodrigo.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>,
-      <a href="{{ site.authors.rodrigo.github }}" target="_blank" rel="noopener">GitHub</a>, and
-      <a href="{{ site.authors.rodrigo.twitter }}" target="_blank" rel="noopener">X</a>.
+      <a href="{{ site.authors.rodrigo.scholar }}" target="_blank" rel="me noopener noreferrer">Google Scholar</a>,
+      <a href="{{ site.authors.rodrigo.orcid }}" target="_blank" rel="me noopener noreferrer">ORCID</a>,
+      <a href="{{ site.authors.rodrigo.linkedin }}" target="_blank" rel="me noopener noreferrer">LinkedIn</a>,
+      <a href="{{ site.authors.rodrigo.github }}" target="_blank" rel="me noopener noreferrer">GitHub</a>,
+      <a href="{{ site.authors.rodrigo.substack }}" target="_blank" rel="me noopener noreferrer">Substack</a>, and
+      <a href="{{ site.authors.rodrigo.twitter }}" target="_blank" rel="me noopener noreferrer">X</a>.
       You can also <a href="{{ site.baseurl }}{{ site.authors.rodrigo.cv_page }}">view my curriculum vitae</a>.
     </p>
   </div>

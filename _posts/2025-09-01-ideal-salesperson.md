@@ -9,8 +9,12 @@ image: assets/images/2025-09-01-ideal-salesperson.webp
 image_width: 1000
 image_height: 1000
 tags: [consumer behavior, consultative selling, decoupling, digitalization, personalization]
+canonical_url: "https://rodrigofarinha.substack.com/p/the-ideal-salesperson"
+sitemap: false
 # toc: true
 ---
+> **Current edition:** Read [The Ideal Salesperson on Substack](https://rodrigofarinha.substack.com/p/the-ideal-salesperson). This archived version is retained here for reference.
+
 > **TL;DR:** The rise of digital platforms that provide product comparisons and qualified information has shifted power to customers, diminishing the traditional role of the salesperson. This article examines how companies should respond, proposing a segmentation matrix based on consumer knowledge and product complexity. Four sales approaches emerge: consultative selling for less‑informed customers with complex solutions; efficient facilitation for informed customers confronting complex offerings; educational support for less‑informed customers buying simple products; and simplified processes for well‑informed customers purchasing low‑complexity items. Managers are advised to adapt training, metrics and compensation to these segments to keep sales teams relevant in the digital age.
 
 

@@ -27,7 +27,7 @@ My research combines applied econometrics with large-scale data construction. I 
     DOI: <a href="https://doi.org/10.1016/j.ijresmar.2026.06.003" target="_blank" rel="noopener">10.1016/j.ijresmar.2026.06.003</a>
   </p>
   <p>
-    This research note develops a transparent and auditable workflow for matching entities across secondary marketing datasets using deterministic, probabilistic, and machine-learning- and LLM-assisted approaches.
+    This paper develops a transparent and auditable workflow for matching entities across secondary marketing datasets using deterministic, probabilistic, and machine-learning- and LLM-assisted approaches.
   </p>
   <p>
     <a href="https://www.sciencedirect.com/science/article/pii/S0167811626000571" target="_blank" rel="noopener">Published article</a>

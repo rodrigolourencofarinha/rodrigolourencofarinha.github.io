@@ -10,9 +10,9 @@
             <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}" width="70" height="70">
             {% endif %}
             <p class="mt-4 mb-0 small text-center">
-                <a target="_blank" rel="noopener" class="d-inline-block mx-1 text-dark" href="{{ author.web }}" aria-label="Website"><i class="fa fa-link" aria-hidden="true"></i></a>
-                <a target="_blank" rel="noopener" class="d-inline-block mx-1 text-dark" href="{{ author.twitter }}" aria-label="X profile"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
-                <a class="d-inline-block mx-1 text-dark" href="mailto:{{ author.email }}" aria-label="Email Rodrigo Farinha"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <a target="_blank" rel="me noopener noreferrer" class="d-inline-block mx-1 text-dark" href="{{ author.web }}" aria-label="Website">{% include icon.html name="link" class="inline-icon" %}</a>
+                <a target="_blank" rel="me noopener noreferrer" class="d-inline-block mx-1 text-dark" href="{{ author.twitter }}" aria-label="X profile">{% include icon.html name="x" class="inline-icon" %}</a>
+                <a class="d-inline-block mx-1 text-dark" href="mailto:{{ author.email }}" aria-label="Email Rodrigo Farinha">{% include icon.html name="email" class="inline-icon" %}</a>
             </p>
         </div>
         <div class="col-md-9">

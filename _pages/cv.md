@@ -9,7 +9,7 @@ comments: false
 My curriculum vitae provides a detailed record of my academic training, research, teaching, and professional experience.
 
 <div class="about-actions my-4">
-  <a href="{{ site.baseurl }}{{ site.authors.rodrigo.cv_pdf }}" class="btn btn-dark" target="_blank" rel="noopener" data-analytics-label="cv_download_cv_page">Download CV (PDF)</a>
+  <a id="cv-download" href="{{ site.baseurl }}{{ site.authors.rodrigo.cv_pdf }}" class="btn btn-dark" target="_blank" rel="noopener">Download CV (PDF)</a>
 </div>
 
 **Current version:** August 2, 2026.

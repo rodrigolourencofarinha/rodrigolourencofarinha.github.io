@@ -20,15 +20,15 @@ sitemap: false
                 <p class="mt-4 mb-0 small text-center">
 
                     {% if author[1].web %}
-                        <a target="_blank" rel="noopener" class="d-inline-block mx-1 text-dark" href="{{ author[1].web }}" aria-label="Website"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        <a target="_blank" rel="me noopener noreferrer" class="d-inline-block mx-1 text-dark" href="{{ author[1].web }}" aria-label="Website">{% include icon.html name="link" class="inline-icon" %}</a>
                     {% endif %}
 
                     {% if author[1].twitter %}
-                        <a target="_blank" rel="noopener" class="d-inline-block mx-1 text-dark" href="{{ author[1].twitter }}" aria-label="X profile"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
+                        <a target="_blank" rel="me noopener noreferrer" class="d-inline-block mx-1 text-dark" href="{{ author[1].twitter }}" aria-label="X profile">{% include icon.html name="x" class="inline-icon" %}</a>
                     {% endif %}
 
                     {% if author[1].email %}
-                        <a class="d-inline-block mx-1 text-dark" href="mailto:{{ author[1].email }}" aria-label="Email {{ author[1].display_name }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        <a class="d-inline-block mx-1 text-dark" href="mailto:{{ author[1].email }}" aria-label="Email {{ author[1].display_name }}">{% include icon.html name="email" class="inline-icon" %}</a>
                     {% endif %}
 
                 </p>

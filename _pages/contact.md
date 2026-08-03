@@ -6,17 +6,22 @@ permalink: /contact/
 comments: false
 ---
 
-<form action="https://formspree.io/f/mpwvkbpq" method="POST">    
-<p class="mb-4">Please send your message to {{site.name}}. We will reply as soon as possible!</p>
+<form id="contact-form" name="contact" action="https://formspree.io/f/mpwvkbpq" method="POST">
+<p class="mb-4">Send me a message. I’ll reply as soon as possible.</p>
 <div class="form-group row">
 <div class="col-md-6">
-<input class="form-control" type="text" name="name" placeholder="Name*" required>
+<label for="contact-name"><strong>Name</strong></label>
+<input id="contact-name" class="form-control" type="text" name="name" autocomplete="name" required>
 </div>
 <div class="col-md-6">
-<input class="form-control" type="email" name="_replyto" placeholder="E-mail Address*" required>
+<label for="contact-email"><strong>Email address</strong></label>
+<input id="contact-email" class="form-control" type="email" name="_replyto" autocomplete="email" required>
 </div>
 </div>
-<textarea rows="8" class="form-control mb-3" name="message" placeholder="Message*" required></textarea>    
+<div class="form-group">
+<label for="contact-message"><strong>Message</strong></label>
+<textarea id="contact-message" rows="8" class="form-control" name="message" required></textarea>
+</div>
 <p class="small text-muted">This form is processed by Formspree. See the <a href="{{ site.baseurl }}/privacy/">privacy notice</a>.</p>
-<input class="btn btn-dark" type="submit" value="Send">
+<button class="btn btn-dark" type="submit">Send</button>
 </form>

@@ -9,7 +9,7 @@ baseurl: "" # Set for root deployment
 url: "https://rodrigofarinha.com" # Canonical site URL for sitemap/SEO
 lang: en
 locale: en_US
-assets_version: 20260802153338
+assets_version: 20260802205500
 google_analytics: 'G-GETFNJX2YC' # Add Rodrigo's GA ID if provided
 # Disqus deprecated in favor of Giscus
 disqus: ''
@@ -28,8 +28,8 @@ giscus:
   lang: 'en'          # interface language
 mailchimp-list: '' # Add Rodrigo's Mailchimp list if provided
 
-# Keep the website's local posts crawlable; link to Substack for additional writing.
-substack_feed_url: ''
+# Writing is published on Substack and rendered here from curated build-time data.
+substack_feed_url: 'https://rodrigofarinha.substack.com/feed'
 substack_publication_url: 'https://rodrigofarinha.substack.com'
 include: ["_pages"]
 permalink: /:title/
@@ -88,7 +88,6 @@ authors:
 # Plugins
 plugins:
   - jekyll-sitemap
-  - jekyll-feed
   - jekyll-seo-tag
 
 # Other
@@ -106,9 +105,6 @@ adsense: "disabled"
 adsense-data-ad-client: ""
 adsense-data-ad-slot: ""
 
-# Lazy Images ("enabled" or "disabled")
-lazyimages: "enabled"
-
 # Post Author Box ("enabled" or "disabled")
 authorbox: "enabled"
 
@@ -116,5 +112,28 @@ authorbox: "enabled"
 sass:
   sass_dir: _sass
   style: compressed
+  sourcemap: never
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, docker-compose.yml, site, output, package.json, package-lock.json, to-do.md, rodrigolourencofarinha.github.io.code-workspace, .DS_Store]
+exclude:
+  - changelog.md
+  - LICENSE.txt
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - Gemfile.lock.bak
+  - docker-compose.yml
+  - site
+  - output
+  - package.json
+  - package-lock.json
+  - to-do.md
+  - rodrigolourencofarinha.github.io.code-workspace
+  - .DS_Store
+  - feed.xml
+  - assets/css/prism.css
+  - assets/js/jquery.min.js
+  - assets/js/lazyload.js
+  - assets/js/lunr.js
+  - assets/js/lunrsearchengine.js
+  - assets/js/prism.js
+  - assets/js/substack-feed.js

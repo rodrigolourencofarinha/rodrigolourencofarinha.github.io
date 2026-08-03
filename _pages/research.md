@@ -4,6 +4,7 @@ title: Research
 description: "Research by Rodrigo Farinha on quantitative marketing, product innovation, ESG, marketing strategy, entity matching, applied econometrics, and AI-assisted analysis."
 permalink: /research/
 comments: false
+last_modified_at: 2026-08-02
 seo:
   type: CollectionPage
 ---
@@ -20,29 +21,27 @@ My research combines applied econometrics with large-scale data construction. I 
 <div class="project-entry" id="how-to-match-entities">
   <p>
     Farinha, R. L., Colicev, A., &amp; Bart, Y. (2026).
-    <a href="https://doi.org/10.1016/j.ijresmar.2026.06.003" target="_blank" rel="noopener">
+    <a id="research-entity-matching-title" class="analytics-research-article" href="https://doi.org/10.1016/j.ijresmar.2026.06.003" target="_blank" rel="noopener">
       How to match entities in secondary datasets in marketing strategy: Three approaches
     </a>.
     <em>International Journal of Research in Marketing</em>.
-    DOI: <a href="https://doi.org/10.1016/j.ijresmar.2026.06.003" target="_blank" rel="noopener">10.1016/j.ijresmar.2026.06.003</a>
+    DOI: <a id="research-entity-matching-doi" class="analytics-research-article" href="https://doi.org/10.1016/j.ijresmar.2026.06.003" target="_blank" rel="noopener">10.1016/j.ijresmar.2026.06.003</a>
   </p>
   <p>
     This paper develops a transparent and auditable workflow for matching entities across secondary marketing datasets using deterministic, probabilistic, and machine-learning- and LLM-assisted approaches.
   </p>
   <p>
-    <a href="https://www.sciencedirect.com/science/article/pii/S0167811626000571" target="_blank" rel="noopener">Published article</a>
+    <a id="research-entity-matching-published" class="analytics-research-article" href="https://www.sciencedirect.com/science/article/pii/S0167811626000571" target="_blank" rel="noopener">Published article</a>
     &middot;
-    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6654778" target="_blank" rel="noopener">SSRN preprint</a>
+    <a id="research-entity-matching-preprint" class="analytics-research-article" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6654778" target="_blank" rel="noopener">SSRN preprint</a>
     &middot;
-    <a href="https://github.com/rodrigolourencofarinha/Entity-Matching-Demo" target="_blank" rel="noopener">Code and examples</a>
+    <a id="research-entity-matching-code" class="analytics-research-article" href="https://github.com/rodrigolourencofarinha/Entity-Matching-Demo" target="_blank" rel="noopener">Code and examples</a>
   </p>
 </div>
 
 ---
 
 ## Ongoing Projects
-
-*Current as of July 5, 2026*
 
 <div class="project-entry">
   <strong>
@@ -51,7 +50,7 @@ My research combines applied econometrics with large-scale data construction. I 
     </a>
   </strong><br>
   <em>With Anatoli Colicev and Yakov Bart</em><br>
-  Status: Preparing for submission to <em>Journal of Marketing</em>; target July 2026
+  Status: Preparing for submission to <em>Journal of Marketing</em>
   <details>
     <summary><strong>Show Abstract</strong></summary>
     <p class="abstract-text">
@@ -65,7 +64,7 @@ My research combines applied econometrics with large-scale data construction. I 
 <div class="project-entry">
   <strong>How Sustainability Shapes Firms' Technological Trajectories</strong><br>
   <em>With Anatoli Colicev, Yakov Bart, and Serguei Netessine</em><br>
-  Status: Empirical strategy development; target <em>Management Science</em>, August 2026
+  Status: Empirical strategy development; target <em>Management Science</em>
   <details>
     <summary><strong>Show Abstract</strong></summary>
     <p class="abstract-text">
@@ -79,7 +78,7 @@ My research combines applied econometrics with large-scale data construction. I 
 <div class="project-entry">
   <strong>Complement or Compete: The Interplay Between Channel Type and Product Innovation Type in Determining Product Sales</strong><br>
   <em>With Kusum Ailawadi, Leandro Guissoni, Jonny Rodrigues, and Thales Teixeira</em><br>
-  Status: Empirical strategy development; target <em>Journal of the Academy of Marketing Science</em>, September 2026
+  Status: Empirical strategy development; target <em>Journal of the Academy of Marketing Science</em>
   <details>
     <summary><strong>Show Abstract</strong></summary>
     <p class="abstract-text">
@@ -107,6 +106,6 @@ My research combines applied econometrics with large-scale data construction. I 
 ## Conference and Invited Presentations
 
 - "Does ESG Performance Hinder Product Innovation" - ISMS Marketing Science Conference, June 2026, Portugal; Marketing Dynamics Conference, May 2026, France.
-- "Complement or Compete: The Interplay Between Channel Type and Product Innovation Type in Determining Product Sales" - ISMS Marketing Science Conference, June 2026, Portugal (forthcoming).
+- "Complement or Compete: The Interplay Between Channel Type and Product Innovation Type in Determining Product Sales" - ISMS Marketing Science Conference, June 2026, Portugal.
 - "Out with the New, In with the Old: The Impact of Reformulating Existing Ingredients on Market Share Gains" - ISMS Marketing Science Conference, June 2025, Washington, DC; San Diego State University, January 2025, San Diego, CA; Theory + Practice in Marketing, May 2024, Austin, TX; Fundação Getulio Vargas, March 2024, São Paulo, Brazil; University of California San Diego, March 2023, San Diego, CA.
 - IFAMA Annual World Conference, 2017, Miami, FL; and 2016, Aarhus, Denmark.

@@ -1,13 +1,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<!-- <link rel="icon" href="{{ '/assets/images/logo.png' | relative_url }}"> -->
 <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/x-icon">
 <link rel="shortcut icon" href="{{ site.favicon | relative_url }}" type="image/x-icon">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+{% if site.substack_feed_url %}
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }} on Substack" href="{{ site.substack_feed_url }}">
+{% endif %}
 
 {% capture seo_markup %}
 {% if page.browser_title %}
@@ -49,8 +50,6 @@
 
 {% assign stylesheet_version = site.assets_version | default: site.time %}
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={% if site.assets_version %}{{ stylesheet_version }}{% else %}{{ stylesheet_version | date: '%s' }}{% endif %}">
-
-<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
 {% if jekyll.environment == 'production' and site.google_analytics %}
   <!-- Google tag (gtag.js) -->

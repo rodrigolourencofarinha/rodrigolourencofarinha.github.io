@@ -7,20 +7,22 @@
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body>
-<a id="home-button" class="home-button auto-contrast" href="{{ site.baseurl }}/" aria-label="Home" title="Home"><i class="fa-solid fa-house"></i><span class="sr-only">Home</span></a>
+<a class="sr-only sr-only-focusable" href="#main-content">Skip to main content</a>
+<a id="home-button" class="home-button auto-contrast" href="{{ site.baseurl }}/" aria-label="Home" title="Home">{% include icon.html name="home" %}</a>
 
 <!-- Begin Sidebar Navigation
 ================================================== -->
 
 <div class="sidebar">    
 </div>   
-<div class="nav-icon">
-    <div class="hamburger-bar"></div>
-</div>
-<div id="blackover-nav" class="blackover"></div>
-<nav id="menu">
+<button type="button" class="nav-icon" aria-label="Open navigation" aria-controls="menu" aria-expanded="false">
+    <span class="hamburger-bar" aria-hidden="true"></span>
+</button>
+<div id="blackover-nav" class="blackover" aria-hidden="true"></div>
+<nav id="menu" aria-label="Primary navigation" aria-hidden="true" inert>
+  <div class="menu-inner">
+    <h2 class="menu-title">Navigation</h2>
     <ul>
-        <h3>Navigation</h3>
         <li><a href="{{ site.baseurl }}/">Home</a></li>
         <li><a href="{{ site.baseurl }}/research/">Research</a></li>
         <li><a href="{{ site.baseurl }}/practice/">Practice</a></li>
@@ -29,10 +31,9 @@
         <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
         <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
         <!-- Keep social and CV links out of the main navigation -->
-    </ul>   
+    </ul>
+  </div>
 </nav>
-
-{% include search-lunr.html %}
 
 
 <!-- End Sidebar Navigation
@@ -68,9 +69,9 @@
 
     <!-- Content
     ================================================== -->
-    <div class="main-content">
+    <main id="main-content" class="main-content">
         {{ content }}
-    </div>
+    </main>
 
     {% if site.mailchimp-list %}
     <!-- Newsletter
@@ -113,14 +114,6 @@
 ================================================== -->
 
 <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
-
-{% if site.substack_feed_url and site.substack_feed_url != '' %}
-<script src="{{ site.baseurl }}/assets/js/substack-feed.js"></script>
-{% endif %}
-
-{% if site.lazyimages == "enabled" %}
-<script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
-{% endif %}
 
 <!-- Disqus count removed; using Giscus for comments -->
 

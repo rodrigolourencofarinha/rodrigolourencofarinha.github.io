@@ -11,6 +11,7 @@ image_height: 1000
 tags: [consumer behavior, consultative selling, decoupling, digitalization, personalization]
 canonical_url: "https://rodrigofarinha.substack.com/p/the-ideal-salesperson"
 sitemap: false
+robots: noindex, follow
 # toc: true
 ---
 > **Current edition:** Read [The Ideal Salesperson on Substack](https://rodrigofarinha.substack.com/p/the-ideal-salesperson). This archived version is retained here for reference.

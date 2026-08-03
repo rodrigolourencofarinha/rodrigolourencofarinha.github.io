@@ -1408,10 +1408,19 @@ img, img:hover {
     }
     
     #menu {
-        width:min(100vw, 360px);
+        right:0;
+        width:auto;
+        max-width:none;
+        height:100dvh;
     }
     #menu .menu-inner {
-        padding:82px 32px 80px;
+        overscroll-behavior:contain;
+        -webkit-overflow-scrolling:touch;
+        padding:
+            calc(82px + env(safe-area-inset-top))
+            max(32px, env(safe-area-inset-right))
+            calc(80px + env(safe-area-inset-bottom))
+            max(32px, env(safe-area-inset-left));
     }
     .related-posts {
         h2 {

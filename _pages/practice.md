@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Practice
-description: "Rodrigo Farinha's consulting and entrepreneurial experience in marketing strategy, analytics, innovation, go-to-market strategy, and digital transformation."
+description: "Rodrigo Farinha's consulting, AI product development, and entrepreneurial experience in marketing strategy, analytics, innovation, go-to-market strategy, and digital transformation."
 permalink: /practice/
 comments: false
 ---
 
-Over the past decade, I have worked with companies of different sizes to support decision-making through strategy, analytics, and innovation. My background includes [consulting](#consulting) and [entrepreneurial roles](#entrepreneurship-sharp-selling), focused on supporting strategic choices related to expansion, revenue generation, and market positioning.
+Over the past decade, I have worked with companies of different sizes to support decision-making through strategy, analytics, and innovation. My background includes [consulting](#consulting), [AI product development](#decomposer-ai), and [entrepreneurship](#entrepreneurship-sharp-selling), focused on supporting strategic choices related to expansion, revenue generation, and market positioning.
 
 ---
 
@@ -38,6 +38,26 @@ I have worked as a strategy consultant and project manager for over ten years, l
 - Led 30+ strategy engagements in agribusiness, chemicals, and industrial B2B sectors across pricing, digital, and innovation topics.
 - Coordinated global teams and stakeholders across 20+ countries.
 - Designed implementation playbooks and decision-making toolkits to support internal scaling and operationalization.
+
+---
+
+## Decomposer AI
+
+<a href="https://www.decomposer.ai/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Decomposer AI website">
+  <img src="/assets/logos/decomposer.png" alt="Decomposer AI" width="958" height="190" loading="lazy" decoding="async" style="height: 80px; width: auto; max-width: 100%; padding: 12px 20px; border-radius: 8px; background: #11152f;" />
+</a>
+
+**[Decomposer AI](https://www.decomposer.ai/) — Head of R&D**<br>
+*2024–Present*
+
+At Decomposer AI, I lead research and development for an AI-powered customer-intelligence platform. The platform transforms large volumes of customer reviews and survey data into structured measures across the Customer Value Chain, helping companies identify sources of friction, benchmark competitors, and prioritize improvements.
+
+My work includes:
+
+- Leading the development and evaluation of machine-learning and LLM-based pipelines for classifying and analyzing customer feedback.
+- Building transparent and auditable methods that combine statistical modeling and AI to measure customer experience across Customer Value Chain activities.
+- Translating analysis into recurring reports, dashboards, and strategic recommendations for projects in automotive, consumer electronics, retail, and e-commerce.
+- Coordinating the R&D roadmap across model development, product design, and client needs.
 
 ---
 

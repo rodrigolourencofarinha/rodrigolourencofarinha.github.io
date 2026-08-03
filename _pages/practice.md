@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Practice
-description: "Rodrigo Farinha's consulting, AI product development, and entrepreneurial experience in marketing strategy, analytics, innovation, go-to-market strategy, and digital transformation."
+description: "Rodrigo Farinha's consulting and startup experience in marketing strategy, analytics, innovation, go-to-market strategy, and digital transformation."
 permalink: /practice/
 comments: false
 ---
 
-Over the past decade, I have worked with companies of different sizes to support decision-making through strategy, analytics, and innovation. My background includes [consulting](#consulting), [AI product development](#decomposer-ai), and [Sharp Selling](#sharp-selling), focused on supporting strategic choices related to expansion, revenue generation, and market positioning.
+Over the past decade, I have worked with companies of different sizes to support decision-making through strategy, analytics, and innovation. My background includes [consulting](#consulting) and [startups](#startups), focused on supporting strategic choices related to expansion, revenue generation, and market positioning.
 
 ---
 
@@ -41,7 +41,9 @@ I have worked as a strategy consultant and project manager for over ten years, l
 
 ---
 
-## Decomposer AI
+## Startups
+
+### Decomposer AI
 
 <a href="https://www.decomposer.ai/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Decomposer AI website">
   <img src="/assets/logos/decomposer.png" alt="Decomposer AI" width="958" height="190" loading="lazy" decoding="async" style="height: 80px; width: auto; max-width: 100%; padding: 12px 20px; border-radius: 8px; background: #11152f;" />
@@ -61,7 +63,7 @@ My work includes:
 
 ---
 
-## Sharp Selling
+### Sharp Selling
 
 <img src="/assets/logos/sharpselling.webp" alt="Sharp Selling" width="600" height="317" loading="lazy" decoding="async" style="height: 80px; width: auto;" />
 

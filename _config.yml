@@ -3,13 +3,13 @@ name: "Rodrigo Farinha"
 title: "Rodrigo Farinha"
 tagline: "Quantitative Marketing, Innovation & AI"
 description: "Rodrigo Farinha is a quantitative marketing scholar and consultant researching marketing strategy, product innovation, applied econometrics, and artificial intelligence."
-logo: 'assets/images/rodrigo_farinha_2024_round.webp'
+logo: 'assets/images/rodrigo_farinha_profile.jpg'
 favicon: 'assets/images/favicon.ico' # Update with actual path later
 baseurl: "" # Set for root deployment
 url: "https://rodrigofarinha.com" # Canonical site URL for sitemap/SEO
 lang: en
 locale: en_US
-assets_version: 20260802205500
+assets_version: 20260802221500
 google_analytics: 'G-GETFNJX2YC' # Add Rodrigo's GA ID if provided
 # Disqus deprecated in favor of Giscus
 disqus: ''
@@ -62,9 +62,9 @@ defaults:
       path: ""
     values:
       image:
-        path: /assets/images/rodrigo_farinha_2024_round.webp
-        width: 600
-        height: 600
+        path: /assets/images/rodrigo_farinha_profile.jpg
+        width: 1200
+        height: 1200
         alt: Rodrigo Farinha
 
 # Authors

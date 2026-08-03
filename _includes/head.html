@@ -20,7 +20,7 @@
 {% endcapture %}
 {% if page.url == '/' %}
   {% assign website_name_json = '"name":"Rodrigo Farinha"' %}
-  {% assign website_name_with_alternates_json = '"name":"Rodrigo Farinha","alternateName":["Rodrigo Lourenço Farinha","Rodrigo L. Farinha","rodrigofarinha.com"]' %}
+  {% assign website_name_with_alternates_json = '"name":"Rodrigo Farinha","alternateName":["Rodrigo Lourenço Farinha","Rodrigo L. Farinha"]' %}
   {{ seo_markup | replace_first: website_name_json, website_name_with_alternates_json }}
 {% else %}
   {{ seo_markup }}

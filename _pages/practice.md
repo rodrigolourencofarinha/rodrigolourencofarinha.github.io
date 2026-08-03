@@ -6,7 +6,7 @@ permalink: /practice/
 comments: false
 ---
 
-Over the past decade, I have worked with companies of different sizes to support decision-making through strategy, analytics, and innovation. My background includes [consulting](#consulting), [AI product development](#decomposer-ai), and [entrepreneurship](#entrepreneurship-sharp-selling), focused on supporting strategic choices related to expansion, revenue generation, and market positioning.
+Over the past decade, I have worked with companies of different sizes to support decision-making through strategy, analytics, and innovation. My background includes [consulting](#consulting), [AI product development](#decomposer-ai), and [Sharp Selling](#sharp-selling), focused on supporting strategic choices related to expansion, revenue generation, and market positioning.
 
 ---
 
@@ -61,7 +61,7 @@ My work includes:
 
 ---
 
-## Entrepreneurship: Sharp Selling
+## Sharp Selling
 
 <img src="/assets/logos/sharpselling.webp" alt="Sharp Selling" width="600" height="317" loading="lazy" decoding="async" style="height: 80px; width: auto;" />
 

@@ -715,6 +715,8 @@ img, img:hover {
         &:before, &:after {
             content: '';
             position: absolute;
+            top: 0;
+            left: 0;
             width: 18px;
             height: 2px;
             background: #292C30;

@@ -344,7 +344,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .client-logo-grid {
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(154px, 1fr));
+    grid-template-columns:repeat(auto-fit, minmax(190px, 1fr));
     gap:14px;
     margin:28px 0 38px;
 }
@@ -1366,6 +1366,11 @@ img, img:hover {
     .client-logo-tile {
         min-height:82px;
         padding:14px;
+    }
+    .client-logo-grid > .client-logo-tile:last-child:nth-child(odd) {
+        grid-column:1 / -1;
+        justify-self:center;
+        width:calc(50% - 6px);
     }
     .home-actions {
         grid-template-columns:1fr;

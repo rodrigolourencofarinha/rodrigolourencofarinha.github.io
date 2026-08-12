@@ -28,6 +28,16 @@ I have worked as a strategy consultant and project manager for over ten years, l
   <span class="client-logo-tile"><img src="/assets/logos/nzte.webp" alt="New Zealand Trade & Enterprise" width="600" height="196" loading="lazy" decoding="async" /></span>
   <span class="client-logo-tile"><img src="/assets/logos/lightsmith.webp" alt="Lightsmith Group" width="600" height="148" loading="lazy" decoding="async" /></span>
   <span class="client-logo-tile"><img src="/assets/logos/blao.webp" alt="BLAO" width="600" height="110" loading="lazy" decoding="async" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/corteva.webp" alt="Corteva Agriscience" width="1270" height="251" loading="lazy" decoding="async" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/technos.svg" alt="Technos" width="2252" height="466" loading="lazy" decoding="async" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/irobot.svg" alt="iRobot" width="87" height="22" loading="lazy" decoding="async" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/autoparts.svg" alt="AutoParts.com" width="229" height="29" loading="lazy" decoding="async" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/byd.svg" alt="BYD" width="1920" height="480" loading="lazy" decoding="async" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/nissan.svg" alt="Nissan" width="1000" height="837" loading="lazy" decoding="async" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/bobcat.webp" alt="Bobcat" width="3840" height="2160" loading="lazy" decoding="async" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/panvel.svg" alt="Panvel" width="62" height="13" loading="lazy" decoding="async" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/autoesporte.webp" alt="Auto Esporte" width="640" height="264" loading="lazy" decoding="async" /></span>
+  <span class="client-logo-tile"><img src="/assets/logos/pagbank.webp" alt="PagBank" width="615" height="190" loading="lazy" decoding="async" /></span>
 </div>
 
 - Led go-to-market strategy design and rollout across 20+ countries, developing customer segmentation models to support international expansion and commercial efficiency.

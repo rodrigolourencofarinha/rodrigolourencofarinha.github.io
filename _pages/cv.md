@@ -12,6 +12,6 @@ My curriculum vitae provides a detailed record of my academic training, research
   <a id="cv-download" href="{{ site.baseurl }}{{ site.authors.rodrigo.cv_pdf }}" class="btn btn-dark" target="_blank" rel="noopener">Download CV (PDF)</a>
 </div>
 
-**Current version:** August 2, 2026.
+**Current version:** October 8, 2026.
 
 For a concise introduction, see [About]({{ site.baseurl }}/about/). My current academic work and teaching are available on the [Research]({{ site.baseurl }}/research/) and [Teaching]({{ site.baseurl }}/teaching/) pages.

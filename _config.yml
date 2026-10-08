@@ -39,10 +39,10 @@ email: 'rodrigo.farinha@tuta.io' # Add Rodrigo's email if provided
 author:
   name: Rodrigo Farinha
   url: https://rodrigofarinha.com/
-  twitter: rodrigofarinha
+  twitter: rodrigolfarinha
   type: Person
 twitter:
-  username: rodrigofarinha
+  username: rodrigolfarinha
   card: summary_large_image
 social:
   name: Rodrigo Farinha
@@ -51,7 +51,7 @@ social:
     - https://orcid.org/0000-0002-3364-8642
     - https://scholar.google.com/citations?user=uG2NW7sAAAAJ
     - https://github.com/rodrigolourencofarinha
-    - https://x.com/rodrigofarinha
+    - https://x.com/rodrigolfarinha
     - https://substack.com/@rodrigofarinha
     - https://eaesp.fgv.br/pessoa/rodrigo-lourenco-farinha
     - https://www.researchgate.net/profile/Rodrigo-Farinha
@@ -75,7 +75,7 @@ authors:
     avatar: 'assets/images/rodrigo_farinha_2024_round.webp'
     email: 'rodrigo.farinha@tuta.io' 
     web: 'https://rodrigofarinha.com' 
-    twitter: 'https://x.com/rodrigofarinha'
+    twitter: 'https://x.com/rodrigolfarinha'
     linkedin: 'https://www.linkedin.com/in/rodrigolourencofarinha'
     github: 'https://github.com/rodrigolourencofarinha'
     scholar: 'https://scholar.google.com/citations?user=uG2NW7sAAAAJ&hl=en'

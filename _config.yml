@@ -2,7 +2,7 @@
 name: "Rodrigo Farinha"
 title: "Rodrigo Farinha"
 tagline: "Quantitative Marketing, Innovation & AI"
-description: "Rodrigo Farinha is a quantitative marketing scholar and consultant researching marketing strategy, product innovation, applied econometrics, and artificial intelligence."
+description: "Rodrigo Farinha is a quantitative marketing scholar, Research Affiliate at Northeastern University, and consultant studying marketing strategy, innovation, and AI."
 logo: 'assets/images/rodrigo_farinha_profile.jpg'
 favicon: 'assets/images/favicon.ico' # Update with actual path later
 baseurl: "" # Set for root deployment
@@ -83,7 +83,7 @@ authors:
     substack: 'https://rodrigofarinha.substack.com'
     cv_page: '/cv/'
     cv_pdf: '/assets/pdf/Rodrigo_Farinha_CV.pdf'
-    description: "Quantitative marketing scholar and management consultant focused on marketing strategy, product innovation, applied econometrics, and artificial intelligence."
+    description: "Quantitative marketing scholar, Research Affiliate at Northeastern University, and management consultant focused on marketing strategy, product innovation, applied econometrics, and artificial intelligence."
 
 # Plugins
 plugins:

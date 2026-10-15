@@ -2,7 +2,7 @@
 layout: page
 title: About Rodrigo Farinha
 browser_title: About | Rodrigo Farinha
-description: "Biography of Rodrigo Farinha, a quantitative marketing scholar and management consultant working on marketing strategy, innovation, econometrics, and AI."
+description: "Biography of Rodrigo Farinha, a quantitative marketing scholar, Research Affiliate at Northeastern University, and management consultant."
 permalink: /about/
 comments: false
 imageshadow: true

@@ -11,7 +11,11 @@
       "url": "{{ site.url }}/",
       "image": "{{ site.url }}/{{ site.logo }}",
       "description": {{ site.description | jsonify }},
-      "jobTitle": "Quantitative Marketing Scholar and Management Consultant",
+      "jobTitle": ["Quantitative Marketing Scholar", "Research Affiliate", "Management Consultant"],
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Northeastern University"
+      },
       "knowsAbout": [
         "Quantitative Marketing",
         "Marketing Strategy",

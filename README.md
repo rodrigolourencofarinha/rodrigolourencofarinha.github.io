@@ -83,6 +83,7 @@ bundle exec jekyll build --destination /tmp/rodrigo-site-build
 
 - Main page copy: edit files in `_pages/`.
 - Homepage copy and buttons: edit `index.html`.
+- CV updates: replace `assets/pdf/Rodrigo_Farinha_CV.pdf` and update `_pages/cv.md`. The legacy `Farinha_Vita_v20251020.pdf` URL is preserved by `_pages/legacy-cv-redirect.html`: GitHub Pages adds the directory slash, then an immediate HTML refresh sends visitors to the current PDF. Keep this redirect out of the sitemap.
 - Blog posts: add Markdown files under `_posts/YYYY-MM-DD-slug.md`.
 - Post images: store under `assets/images/` or `assets/images/<post-slug>/`.
 - Theme/layout changes: inspect `_layouts/`, `_includes/`, `_sass/theme.scss`, and `assets/js/theme.js` together.
